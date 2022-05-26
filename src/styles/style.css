@@ -23,6 +23,11 @@ body {
 }
 
 /* navbar */
+.img-logo {
+    width: 100px;
+    float: right;
+}
+
 .app-bar {
     padding: 8px 16px;
     background-color: white;

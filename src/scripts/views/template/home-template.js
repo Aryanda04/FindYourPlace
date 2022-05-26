@@ -1,4 +1,5 @@
-//template untuk menampilkan resto item
+/* eslint-disable import/prefer-default-export */
+// template untuk menampilkan resto item
 
 const createRestoItemTemplate = (data) => `
     <div tabindex="0" class="card">
