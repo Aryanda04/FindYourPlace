@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable max-len */
 // eslint-disable-next-line import/no-unresolved
 import data from '../../data/DATA.json';
@@ -8,6 +9,7 @@ const Home = {
   async render() {
     return `
       <h2>HOMEEE PAGEEEE</h2>
+      <img src="https://i.ibb.co/jyK8ttS/1507fdd09a84bc60a21d5a45804fabea.png" alt="1507fdd09a84bc60a21d5a45804fabea" border="0">
       <section id="explore-restaurant"></section>
 
     `;
