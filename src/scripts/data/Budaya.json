@@ -1,0 +1,22 @@
+{
+    "belitung": [
+        {
+            "id": "blt-budaya-1",
+            "name": "muang jong",
+            "description": "Muang Jong adalah sebuah ritual adat yaitu mengarungkan sebuah kapal kecil yang berisikan sesajian ke tengah laut sebagai wujud rasa syukur dan keselamatan saat mengarungi lautan Tradisi ini dilakukan oleh orang laut Belitung yang dikenal dengan suku Sawang.Dalam bahasa umum Muang Jong yang berpuncak pada ritual membuang miniatur kapal beserta sesaji kelaut adalah semacam kegiatan sedekah laut.Selain itu mengenang arwah leluhur mereka yang meninggal karena ganasnya ombak laut.Tradisi ini juga sekaligus sebagai sarana untuk memohon agar diberikan perlindungan dan keselamatan bagi siapapun yang mencari nafkah dilaut. Pelaksanaannya paling tidak berlangsung tiga hari tiga malam dimana didalamnya ada ritual yang harus dijalankan.",
+            "picture": "https://i.ibb.co/FmbH079/muang-jong.png"
+        },
+        {
+            "id": "blt-budaya-2",
+            "name": "Beripat Beregong",
+            "description": "Beripat beregong ini biasanya dapat ditemui saat pelaksanaan tradisi tahunan Marastaun di Belitung. Cara memulai permainannya pun tidak mudah karena harus ada persiapannya cukup banyak, mulai dari selamatan sampai pembangunan rumah tinggi sekitar 6-7 meter. Tempat ini juga digunakan digunakan para penabuh alat musik. Dalam menaikkan alat musik ke rumah tinggi, tak boleh dilakukan sembarangan karena harus dipimpin ketua adat atau ahli waris pemilik gong. Tradisi ini juga harus dihadiri oleh para petinggi adat, juru pisah, dan pencatat jumlah pukulan. Setelah semua siap, barulah pria-pria yang ingin mencoba ilmu itu menemui sang tetua untuk ditanya asal rumah. Pasalnya, para pria yang akan bertanding tidak boleh berasal dari kampung yang sejalan. Bila dukun sudah menyetujui mereka bertanding, maka dia lelaki tersebut bisa langsung menuju arena.Hal lain yang harus dilakukan sebelum memulai duel adalah dengan memeriksa rotan yang akan digunakan. Senjata tersebut akan diukur sama panjang sebelum digosok menggunakan air yang sudah diberi mantra atau jampi-jampi. Menurut masyarakat, air mantra tersebut memiliki khasiat menahan sakit meski pukulannya keras. Namun rasa sakitnya baru akan terasa sesampainya di rumah pemain. Setelah ritual pemberian air suci pada rotan selesai, kedua pria jantan bisa memasuki gelanggang permainan sambil diiringi teriakan penonton. Permainan ini mengharuskan pria-pria tersebut membuka baju bagian  atas mereka, selain itu bagian kepala ditutup menggunakan sehelai kain  dan tangan kiri dibungkus agar bisa menangkis serangan lawan. Kedua  pemain juga harus mengenakan kain sebatas lutut saat bertanding. Syarat-syarat yang diberlakukan untuk duel ini adalah tidak  diperbolehkan menyerang dengan cara mengecoh atau menyerunduk. Tidak  diperkenankan menyerang bagian kepala maupun pinggang ke bawah. Pukulan  baru akan dianggap sah bila mengenai bagian belakang lawan.",
+            "picture": "https://i.ibb.co/CQK41Kx/beripat.jpg"
+        },
+        {
+            "id": "blt-budaya-3",
+            "name": "Maras Taun",
+            "description": "Maras Taun adalah salah satu adat istiadat yang dilakukan secara turun temurun oleh masyarakat Belitung. Maras berarti kegiatan membersihkan duri-duri kecil pada tanaman. Yang dimaksud dengan membersihkan duri adalah kegiatan membersihkan atau menyelesaikan semua masalah.  Sedangkan Taun  berarti tahun.  Dapat disimpulkan bahwa, Maras Taun berarti pergantian tahun, dari tahun lama ke tahun baru. Ritual ini nantinya akan dipimpin oleh dukun (pemangku adat) bersama masyarakat.",
+            "picture": "https://i.ibb.co/2PSMRd3/maras-taun.jpg"
+        }
+    ]
+}
