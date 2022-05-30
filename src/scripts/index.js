@@ -1,7 +1,13 @@
 import 'regenerator-runtime';
 import '../styles/style.css';
 import '../styles/responsive-style.css';
+import '../styles/jumbotron.css';
+import '../styles/footer.css';
 import App from './views/app';
+
+import './views/component/custom-footer';
+import './views/component/custom-navbar';
+import './views/component/custom-jumbotron';
 
 const app = new App({
   button: document.querySelector('#hamburgerButton'),

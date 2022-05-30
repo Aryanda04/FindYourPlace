@@ -5,44 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website to find place to travel">
     <link rel="icon" href="../images/logo/favicon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Find Your Place</title>
 </head>
 <body>
     <a href="#maincontent" class="skip-link">Menuju ke konten</a>
-    <header class="app-bar">
-        <div class="app-bar__menu">
-          <button id="hamburgerButton">☰</button>
-        </div>
-        <div class="app-bar__brand">
-<img class="img-logo" src="../images/logo/FYP-Logo.png" alt="">        </div>
-        <nav id="navigationDrawer" class="app-bar__navigation">
-          <ul>
-            <li><a href="#/">Home</a></li>
-            <li><a href="#/wisata">Wisata</a></li>
-            <li><a href="#/umkm">UMKM</a></li>
-            <li><a href="#/budaya">Budaya</a></li>
-          </ul>
-        </nav>
-    </header>
-    <div class="hero" style="background-image: linear-gradient(rgba(0, 0, 5, .5), rgba(0, 0, 5, .5)), url('images/heros/hero-image_2.jpg');">
+
+    <!-- <div class="hero" style="background-image: linear-gradient(rgba(0, 0, 5, .5), rgba(0, 0, 5, .5)), url('images/heros/hero-image-belitung-2.jpg');">
         
         <div class="hero__inner">
             <h1 class="hero__title">FYS, Find Your Place</h1>
             <p class="hero__tagline">Find the Best Place to find your destination</p>
         </div>
-    </div>
+    </div> -->
+    <custom-navbar></custom-navbar>
+
+
     
         <main>
             <div class="latest">
-                <h1 class="latest__label">Explore Your Place</h1>
                 <section id="mainContent" class="content">
                 <div class="posts" id="restaurant-card"></div>
+                <h1 class="latest__label">Explore Your Place</h1>
             </div>
         </section>
     </main>
-        <footer>
-            <p class="footer-text">Copyright &#169 2022 - For Your Stomach</p>
-        </footer>
+    <custom-footer></custom-footer>
+
    
         
     </body>

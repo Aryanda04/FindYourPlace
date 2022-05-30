@@ -8,6 +8,7 @@ import { createRestoItemTemplate } from '../template/home-template';
 const Home = {
   async render() {
     return `
+    <custom-jumbotron></custom-jumbotron>
       <h2>HOMEEE PAGEEEE</h2>
       <section id="explore-restaurant"></section>
 
