@@ -40,6 +40,26 @@
           "description": "Sebagai pulau terbesar yang berada di gugusan Kepulauan Hinako di Nias Barat, Pulau Hinako menawarkan keindahan yang tak kalah jika dibandingkan objek wisata Kepulauan Nias lainnya. Keindahan biota laut Pulau Hinako sangat terkenal hingga mancanegara. Maka tak heran pulau ini kerap dikunjungi wisatawan dari mancanegara. Karena berbatasan langsung dengan Samudera Hindia, pantai di Pulau Hinako memiliki ombak yang relatif besar sehingga cocok untuk berselancar. Tak hanya berselancar, kamu yang berkunjung ke destinasi wisata di Kepulauan Nias ini bisa melakukan beragam aktifitas seperti memancing, menyelam, dan snorkeling.",
           "picture": "https://i.ibb.co/5RRXV33/pulau-hinako.jpg"
         }
+      ],
+      "Banten": [
+        {
+          "id": "1",
+          "name": "Pulau Umang",
+          "description": "Salah satu tempat wisata yang berada di Banten. Pulau umang merupakan sebuah pulau dengan luas sekitar 5 hektar yang terletak di kawasan objek wisata pantai Pandelglang yang berdekatan dengan kawasan wisata Tanjung Lesung. Rute yang dilalui menu ke Pulau umang dari Jakarta, gunakan tol Jakarta, Merak, lalu keluar pintu Serang Timur (KM 71), kemudian lanjut ke jalan Pandeglang, Labuan, Taragong atau bisa melewaji jalur alternatif dengan mengakses Tol Jakarta menuju Merak, lalu keluar di pintu Cilegon Barat, ikuti rute Anyer-Carita, ke Labuan, Tarogong, Citereup, Cigeulis, Cibalung, Cimanggu, dan Kecamatan Sumur. Selanjutnya pergi ke pinggir Pantai Sumur untuk mendapatkan tiket penyebrangan, sewa speed boad untuk menyeberang dari Pantai Sumur menuju Pulau Umang.Fasilitas yang disediakan diantaranya kolang renang, karauke, sara olahraga, ruang pertemuan permainan air seperti snorkeling, memancing, berenang, bermain jet ski atau banana boat.  ",
+          "picture": "https://i.ibb.co/vm9fyV4/bawomataluo.jpg"
+        },
+        {
+          "id": "2",
+          "name": "Taman Nasional Ujung Kulon",
+          "description": "Taman Nasional Ujung Kulon terletak di ujung barat Pulau Jawa merupakan tempat wisata sebagai tempat perlindungan badak. Tempat yang bisa dikunjungi diantaranya Pulau Peucang Pulau di seberang barat pulau utama Jawa ini mempunyai karakteristik pantai berpasir putih yang lapang serta perairan yang jernih dan tenang. Di pulau ini menyediakan penginapan bagi pengunjung. Kegiatan yang bisa dilakukan di Pulau Peucang antara lain trekking ke Karang Copong untuk menyaksikan matahari terbenam, berenang dan snorkeling di perairan dangkal hingga menyelam ke taman bawah laut yang indah.Pulau HandeleumTerletak di antara gugusan pulau-pulau kecil yang berada di ujung timur laut pantai Semenanjung Ujung Kulon. Pulau Handeleum merupakan satu tempat untuk traverler yang hobi petualangan. Kegiatan yang ada di pulau ini menyediakan wisata adventure.",
+          "picture": "https://i.ibb.co/nB2GVM0/pantai-gawu-soyo.jpg"
+        },
+        {
+          "id": "3",
+          "name": "Kampung Baduy",
+          "description": "merupakan bagian dari wisata alam Banten yang tidak hanya menyuguhkan eksotisme lingkungan dan hewan, namun interaksi dengan penduduknya yang inspiratif. Lokasinya yang terletak di Desa Lebak, Banten ini merupakan kampung asli suku Baduy, yang masih sangat menjaga wasiat dan budaya turun temurun dari nenek moyang mereka.",
+          "picture": "https://i.ibb.co/5RRXV33/pulau-hinako.jpg"
+        }
       ]
     }
   }
