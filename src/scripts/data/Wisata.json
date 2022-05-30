@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "Nias": [
         {
             "id": "blt-wisata-1",
@@ -20,3 +21,26 @@
         }
     ]
 }
+=======
+  "belitung": [
+    {
+      "id": "1",
+      "name": "Pulau Lebong",
+      "description": "Bagi wisatawan yang ingin merasakan pengalaman berwisata di pulau privat layaknya Maldives, Leebong Island atau Pulau Leebong ini adalah destinasi yang tepat untukmu! Kawasan yang memiliki hamparan pantai indah ini dikelola oleh pihak swasta dan menjadi salah satu primadona wisata laut di Belitung.  Berbagai pengalaman seru bisa Anda nikmati. Anda bisa menikmati indahnya pantai yang tidak terlalu ramai, menjelajahi lautan dengan boat, hingga yang menjadi favorit utama wisatawan adalah menikmati pemandangan hutan mangrove yang terletak di pinggir pantai dan berteduh di rumah pohon. Semua bisa Anda dapatkan di sini.",
+      "picture": ""
+    },
+    {
+      "id": "2",
+      "name": "Danau Kaolin",
+      "description": "Wisata laut tidak hanya melulu pantai. Anda juga bisa mencoba untuk berkunjung ke danau, wilayah perairan yang terlihat bagaikan miniatur dari lautan.  Salah satu destinasi danau yang sangat terkenal di Belitung adalah Danau Kaolin, yang menawarkan panorama hamparan pasir putih dengan air danau sangat bening. Persis seperti Maldives dengan spot yang Instagramable! Uniknya,Danau Kaolin ini merupakan destinasi wisata yang dulunya merupakan bekas penambangan mineral berupa Kaolin. Kubangan besar bekas tambang tersebut kemudian berubah menjadi hamparan danau yang luar biasa indah, bisa disaksikan hingga kini. ",
+      "picture": ""
+    },
+    {
+      "id": "3",
+      "name": "Pantai Tanjung Kelayang",
+      "description": "Salah satu destinasi wisata laut berbentuk pantai. Karena keindahannya, menjadikan Pulau Belitung dijuluki sebagai Maldives Indonesia.  Pantai yang berlokasi di Kecamatan Sijuk, Kabupaten Belitung ini dikenal dengan salah satu batu granit raksasa yang berbentuk lambang negara Indonesia yaitu Burung Garuda, serta hamparan pasir putih yang memesona dan eksotis.  Oleh karena keindahan serta luasnya area pantai tersebut, Pantai Tanjung Kelayang dijuluki sebagai ‘Sepotong Surga di Kepulauan Belitung’ dan telah ditetapkan sebagai Kawasan Ekonomi Khusus (KEK) oleh Pemerintah Indonesia. ",
+      "picture": ""
+    }
+  ]
+}
+>>>>>>> 1f1983b33bf7eaba64a42de2154c0410a59b6c36
