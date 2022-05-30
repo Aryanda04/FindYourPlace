@@ -18,5 +18,45 @@
             "description": "Maras Taun adalah salah satu adat istiadat yang dilakukan secara turun temurun oleh masyarakat Belitung. Maras berarti kegiatan membersihkan duri-duri kecil pada tanaman. Yang dimaksud dengan membersihkan duri adalah kegiatan membersihkan atau menyelesaikan semua masalah.  Sedangkan Taun  berarti tahun.  Dapat disimpulkan bahwa, Maras Taun berarti pergantian tahun, dari tahun lama ke tahun baru. Ritual ini nantinya akan dipimpin oleh dukun (pemangku adat) bersama masyarakat.",
             "picture": "https://i.ibb.co/2PSMRd3/maras-taun.jpg"
         }
+    ],
+    "Nias": [
+        {
+            "id": "blt-budaya-1",
+            "name": "Tari Perang",
+            "description": "Atraksi Tari Perang yaitu para penari akan memeragakan tari perang Fataele Nias dengan nuansa mistis yang unik. Tari asal daerah Desa Bowanatallio ini meneritakan perihal kehidupan orang-orang Nias zaman dahulu yang sering berperang merebutkan wilayah. Para penari akan menggunakan pakaian tradisi berwarna hitam dan kuning, aksesori berbentuk penutup kepala, serta tanduk kerbau yang ditancapkan di hidung. Tiap penari dilengkapi tombak, tameng, dan pedang bernama Tologu.",
+            "picture": "https://i.ibb.co/fksF1K5/tari-perang-3.jpg"
+        },
+        {
+            "id": "blt-budaya-2",
+            "name": "Lompat Batu",
+            "description": "Lompat Batu merupakan tradisi oleh masyarakat setempat dikenal dengan istilah hombo batu atau fahombo. Batu yang sudah disusun setinggi 2 meter dengan ketebalan 40 sentimeter harus dilompati oleh semua pemuda Nias yang sudah dianggap dewasa.",
+            "picture": "https://i.ibb.co/BGmT3LL/lompat-batu.png"
+        },
+        {
+            "id": "blt-budaya-3",
+            "name": "Tari Maena",
+            "description": "Tari Maena adalah tari tradisional yang berasal dari kepulauan Nias yang diturunkan turun-temurun oleh leluhur suku Nias. Tari Maena ditampilkan pada kegiatan-kegiatan adat terutama pernikahan untuk menyambut tamu. Tari Maena termasuk jenis tarian rakyat yang dapat dilakukan secara bersama-sama atau massal.",
+            "picture": "https://i.ibb.co/tqVW09y/tari-maena.jpg"
+        }
+    ],
+    "Banten": [
+        {
+            "id": "blt-budaya-1",
+            "name": "Budaya panjang Mulud",
+            "description": "Budaya Panjang Mulud merupakan tradisi di Kota Serang Banten. Panjang Mulud dilakukan dalam rangka memperingati Maulid Nabi Muhammad SAW. yang juga disebut Maulidan. Tradisi Long Mulud masih menjadi event lokal yang belum mampu menarik wisatawan lebih luas. Sedangkan Panjang Mulud bisa lebih menarik jika disajikan melalui acara budaya yang lebih terpadu dan menarik yaitu melalui Festival Panjang Mulud. Sebagai salah satu cara melestarikan budaya, agama, sosial dan gotong royong, Pemerintah Kota Serang telah mendukung Panjang Mulud dalam bentuk kegiatan tahunan berupa pawai Long Mulud bersama seluruh OPD ke alun-alun Kota Serang.",
+            "picture": "https://i.ibb.co/4jFShvD/banten1.jpg"
+        },
+        {
+            "id": "blt-budaya-2",
+            "name": "Debus",
+            "description": "Debus merupakan kesenian bela diri dari Banten. Kesenian ini diciptakan pada abad ke-16, pada masa pemerintahan Sultan Maulana Hasanuddin (1532-1570). Debus, suatu kesenian yang mempertunjukan kemampuan manusia yang luar biasa, kebal senjata tajam, kebal api, minum air keras, memasukan benda kedalam kelapa utuh, menggoreng telur di kepala dan lain-lain.",
+            "picture": "https://i.ibb.co/4jFShvD/banten1.jpg"
+        },
+        {
+            "id": "blt-budaya-3",
+            "name": "Golok Banten",
+            "description": "Golok Banten adalah pisau besar dan berat yang digunakan sebagai alat berkebun sekaligus senjata yang jamak ditemui di Asia Tenggara. Hingga saat ini kita juga bisa melihat golok digunakan sebagai senjata dalam silat. Ukuran, berat, dan bentuknya bervariasi tergantung dari pandai besi yang membuatnya. Golok memiliki bentuk yang hampir serupa dengan machete tetapi golok cenderung lebih pendek dan lebih berat, dan sering digunakan untuk memotong semak dan dahan pohon.",
+            "picture": "https://i.ibb.co/SsyK0WF/golok-banten.jpg"
+        }
     ]
 }
