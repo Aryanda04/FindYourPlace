@@ -18,3 +18,74 @@ footer {
   padding: 12px;
   margin: auto;
 }
+
+
+.icon i{
+	color: black;
+}
+
+.row a{
+	color: white;
+}
+
+.row h4{
+	color: black;
+}
+
+.fa-facebook{
+	font-size: 25px;
+	padding: 10px;
+}
+
+.fa-instagram{
+	font-size: 25px;
+	padding: 10px;
+}
+
+.fa-twitter{
+	font-size: 25px;
+	padding: 10px;
+}
+
+.fa-youtube{
+	font-size: 25px;
+	padding: 10px;
+}
+
+.fa-whatsapp{
+	font-size: 25px;
+	padding: 10px;
+}
+
+#bawahweb{
+	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.copyright a{
+	color: white;
+}
+
+.navbar img{
+	width: 83px;
+}
+
+.list-group a{
+	color: black;
+}
+
+.teks h5{
+	font-size: 20px;
+}
+
+.teks p{
+	font-size: 15px;
+}
+
+.form button{
+	position: center;
+}
+
+.link a{
+	color: red;
+}

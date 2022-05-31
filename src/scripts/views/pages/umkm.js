@@ -3,7 +3,7 @@ import { createUmkmItemTemplate } from "../template/umkm-template";
 const UMKM = {
   async render() {
     return `
-        <h2>UMKMMMMMMMMMM PAGEEEE</h2>
+        <h2>UMKM EXPLORE</h2>
         <section id="explore-umkm"></section>
 
       `;
