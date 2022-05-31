@@ -1,3 +1,6 @@
+import data from "../../data/Wisata.json";
+import { createWisataItemTemplate } from "../template/wisata-template";
+
 const Wisata = {
   async render() {
     return `
