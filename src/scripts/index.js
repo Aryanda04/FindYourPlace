@@ -3,6 +3,7 @@ import '../styles/style.css';
 import '../styles/responsive-style.css';
 import '../styles/jumbotron.css';
 import '../styles/footer.css';
+import '../styles/home.css';
 import App from './views/app';
 
 import './views/component/custom-footer';
