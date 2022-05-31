@@ -1,3 +1,6 @@
+import data from "../../data/Wisata.json";
+import { createWisataItemTemplate } from "../template/wisata-template";
+
 const Wisata = {
   async render() {
     return `
@@ -7,7 +10,13 @@ const Wisata = {
 
   async afterRender() {
     // Fungsi ini akan dipanggil setelah render()
+    console.log(data);
+    const listContainer = document.querySelector("#explore-wisata");
+
+    data.Wisata.forEach((wisataBelitung) => {
+      listContainer.innerHTML += createWisataItemTemplate(wisataBelitung);
+    });
   },
 };
 
-export default Wisata;
+export default wisata;

@@ -1,5 +1,5 @@
-import data from '../../data/UMKM.json';
-import { createUmkmItemTemplate } from '../template/umkm-template';
+import data from "../../data/UMKM.json";
+import { createUmkmItemTemplate } from "../template/umkm-template";
 const UMKM = {
   async render() {
     return `
@@ -11,11 +11,11 @@ const UMKM = {
   async afterRender() {
     // Fungsi ini akan dipanggil setelah render()
     console.log(data);
-    const listContainer = document.querySelector('#explore-umkm');
+    const listContainer = document.querySelector("#explore-umkm");
 
-    data.banten.forEach((umkmbanten)=>{
-      listContainer.innerHTML += createUmkmItemTemplate(umkmbanten)
-    })  
+    data.banten.forEach((umkmbanten) => {
+      listContainer.innerHTML += createUmkmItemTemplate(umkmbanten);
+    });
   },
 };
 
