@@ -11,21 +11,25 @@ const Home = {
     <custom-jumbotron></custom-jumbotron>
       <h2>HOMEEE PAGEEEE</h2>
       <div class="main-scroll-div">
-        <div>
-          <button class="icon" id="btnl"><i class="fas fa-angle-double-left"></i></button>
+      <div class="top-scroll-icon-container">
+        <div class="scroll-icon-container">
+          <button class="scroll-icon" id="btnl"><i class="fas fa-angle-double-left"></i></button>
+        </div>
+        <div class="scroll-icon-container-right-hidden">
+        <button class="scroll-icon" id="btnr"><i class="fas fa-angle-double-right"></i></button>
+        </div>
         </div>
           <div class="cover">
             <div class="scroll-images" id="explore-restaurant">
             </div>
           </div>
-        <div>
-        <button class="icon" id="btnr"><i class="fas fa-angle-double-right"></i></button>
+        <div class="scroll-icon-container-right">
+        <button class="scroll-icon" id="btnr2"><i class="fas fa-angle-double-right"></i></button>
         </div>
       </div>
 
     `;
   },
-  // <section id="explore-restaurant"></section>
 
   async afterRender() {
     console.log(data);
@@ -50,11 +54,16 @@ const Home = {
       const left = document.querySelector('.scroll-images');
       left.scrollBy(350, 0);
     });
+    const iconright1 = document.querySelector('#btnr');
+    iconright1.addEventListener('click', async () => {
+      const right = document.querySelector('.scroll-images');
+      right.scrollBy(-350, 0);
+    });
 
-    const iconright = document.querySelector('#btnr');
-    iconright.addEventListener('click', async () => {
-      const left = document.querySelector('.scroll-images');
-      left.scrollBy(-350, 0);
+    const iconright2 = document.querySelector('#btnr2');
+    iconright2.addEventListener('click', async () => {
+      const right = document.querySelector('.scroll-images');
+      right.scrollBy(-350, 0);
     });
 
     // Fungsi ini akan dipanggil setelah render()

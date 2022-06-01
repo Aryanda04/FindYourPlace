@@ -6,8 +6,6 @@ const createBudayaItemTemplate = (data) => `
     <img tabindex="0" src="${data.picture}" class="lazyload card-image" alt="${data.name}"/>
     <div class="card__content">
       <h2>${data.name}</h2>
-      <p>
-      </p>
       <a href="#">Read More</a>
     </div>
   </div>

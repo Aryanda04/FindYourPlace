@@ -3,89 +3,89 @@
  */
 
 footer {
-  border-top: 1px solid black;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: antiquewhite;
-  color: white;
-  text-align: center;
+	border-top: 1px solid black;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: antiquewhite;
+	color: white;
+	text-align: center;
 }
 
 .footer-text {
-  font-size: large;
-  color: black;
-  padding: 12px;
-  margin: auto;
-}
-
-
-.icon i{
+	font-size: large;
 	color: black;
+	padding: 12px;
+	margin: auto;
 }
 
-.row a{
+
+/* .icon i{
+	color: black;
+} */
+
+.row a {
 	color: white;
 }
 
-.row h4{
+.row h4 {
 	color: black;
 }
 
-.fa-facebook{
+.fa-facebook {
 	font-size: 25px;
 	padding: 10px;
 }
 
-.fa-instagram{
+.fa-instagram {
 	font-size: 25px;
 	padding: 10px;
 }
 
-.fa-twitter{
+.fa-twitter {
 	font-size: 25px;
 	padding: 10px;
 }
 
-.fa-youtube{
+.fa-youtube {
 	font-size: 25px;
 	padding: 10px;
 }
 
-.fa-whatsapp{
+.fa-whatsapp {
 	font-size: 25px;
 	padding: 10px;
 }
 
-#bawahweb{
+#bawahweb {
 	font-size: 13px;
 	font-family: 'Raleway', sans-serif;
 }
 
-.copyright a{
+.copyright a {
 	color: white;
 }
 
-.navbar img{
+.navbar img {
 	width: 83px;
 }
 
-.list-group a{
+.list-group a {
 	color: black;
 }
 
-.teks h5{
+.teks h5 {
 	font-size: 20px;
 }
 
-.teks p{
+.teks p {
 	font-size: 15px;
 }
 
-.form button{
+.form button {
 	position: center;
 }
 
-.link a{
+.link a {
 	color: red;
 }
