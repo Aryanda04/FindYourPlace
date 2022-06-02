@@ -8,7 +8,7 @@ class HeroContent extends HTMLElement {
     this.innerHTML = `
         <section id="jumbotron">
 		<div class="container">
-			<h1 class="title">Make Money Only From Home</h1>
+			<h1 class="title">Find Your Place</h1>
 			<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quibusdam cupiditate obcaecati in eveniet tempore?</p>
 			<div class="content">
 

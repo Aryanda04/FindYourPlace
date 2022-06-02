@@ -22,4 +22,13 @@ const createUMKMItemTemplate = (data) => `
 </div>
   `;
 
-export { createBudayaItemTemplate, createUMKMItemTemplate };
+const createWisataItemTemplate = (data) => `
+<div class="wisata-card">
+  <a href="#/detail/${data.id}">
+  <img tabindex="0" src="${data.picture}" class="lazyload wisata-card-image" alt="${data.name}"/>
+  <h2>${data.name}</h2>
+
+  </a>
+</div>
+`;
+export { createBudayaItemTemplate, createUMKMItemTemplate, createWisataItemTemplate };

@@ -1,16 +1,20 @@
 /* eslint-disable no-console */
 /* eslint-disable max-len */
 // eslint-disable-next-line import/no-unresolved
-import data from '../../data/Budaya.json';
+import dataBudaya from '../../data/Budaya.json';
 import dataUMKM from '../../data/UMKM.json';
+import dataWisata from '../../data/Wisata.json';
 // import untuk mengambiml dari file template
-import { createBudayaItemTemplate, createUMKMItemTemplate } from '../template/home-template';
+import { createBudayaItemTemplate, createUMKMItemTemplate, createWisataItemTemplate } from '../template/home-template';
 
 const Home = {
   async render() {
     return `
     <custom-jumbotron></custom-jumbotron>
-      <h2>HOMEEE PAGEEEE</h2>
+      <h2 class="tagline-home">Recomendation Place</h2>
+      <section id="wisata-section"></section>
+
+      <h2 class="tagline-home">Culture</h2>
       <div class="main-scroll-div">
       <div class="top-scroll-icon-container">
         <div class="scroll-icon-container">
@@ -21,13 +25,15 @@ const Home = {
         </div>
         </div>
           <div class="cover">
-            <div class="scroll-images" id="explore-restaurant">
+            <div class="scroll-images" id="budaya-section">
             </div>
           </div>
         <div class="scroll-icon-container-right">
         <button class="scroll-icon" id="btnr2"><i class="fas fa-angle-double-right"></i></button>
         </div>
       </div>
+      <h2 class="tagline-home">UMKM</h2>
+
       <section id="umkm-section"></section>
 
 
@@ -40,29 +46,36 @@ const Home = {
     const randomly = () => Math.random() - 0.4;
     const arrBudaya = [];
     const arrUMKM = [];
-    const keys = Object.keys(data);
+    const arrWisata = [];
+    const arrItem = [];
+    const keys = Object.keys(dataBudaya);
     const keys2 = Object.keys(dataUMKM);
+    const keys3 = Object.keys(dataWisata);
 
+    keys.forEach((key) => {
+      arrBudaya.push(...dataBudaya[key]);
+      arrItem.push(...dataBudaya[key]);
+    });
     keys2.forEach((key) => {
       arrUMKM.push(...dataUMKM[key]);
-      // console.log(dataUMKM[key]);
+      arrItem.push(...dataUMKM[key]);
     });
     const dynamicarrUMKM = [].concat(arrUMKM).sort(randomly);
-    console.log(dynamicarrUMKM);
-    console.log(arrUMKM);
-    keys.forEach((key) => {
-      arrBudaya.push(...data[key]);
-      // console.log(data[key]);
+    keys3.forEach((key) => {
+      arrWisata.push(...dataWisata[key]);
+      arrItem.push(...dataWisata[key]);
     });
-    console.log(arrBudaya);
+    const dynamicarrWisata = [].concat(arrWisata).sort(randomly);
+    console.log(arrItem);
 
     // const loading = document.querySelector('#loading');
     // const mainContainer = document.querySelector('#main-container');
 
     // list container untuk menentukan kontainer mana yang akan dipakai untuk digunakan pada template
     // disini menggunakan explore restaurant
-    const listContainer = document.querySelector('#explore-restaurant');
+    const budayaContainer = document.querySelector('#budaya-section');
     const umkmContainer = document.querySelector('#umkm-section');
+    const wisataContainer = document.querySelector('#wisata-section');
 
     const iconleft = document.querySelector('#btnl');
     iconleft.addEventListener('click', async () => {
@@ -81,12 +94,15 @@ const Home = {
     });
 
     // Fungsi ini akan dipanggil setelah render()
-    dynamicarrUMKM.slice(0, 6).forEach((i) => {
+    dynamicarrUMKM.slice(0, 4).forEach((i) => {
       umkmContainer.innerHTML += createUMKMItemTemplate(i);
     });
 
     arrBudaya.forEach((i) => {
-      listContainer.innerHTML += createBudayaItemTemplate(i);
+      budayaContainer.innerHTML += createBudayaItemTemplate(i);
+    });
+    dynamicarrWisata.slice(0, 4).forEach((i) => {
+      wisataContainer.innerHTML += createWisataItemTemplate(i);
     });
   },
 

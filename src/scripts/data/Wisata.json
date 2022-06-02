@@ -1,66 +1,62 @@
 {
-  "Wisata": {
-    "provinsi": {
-      "Belitung": [
-        {
-          "id": "1",
-          "name": "Pulau Lebong",
-          "description": "Bagi wisatawan yang ingin merasakan pengalaman berwisata di pulau privat layaknya Maldives, Leebong Island atau Pulau Leebong ini adalah destinasi yang tepat untukmu! Kawasan yang memiliki hamparan pantai indah ini dikelola oleh pihak swasta dan menjadi salah satu primadona wisata laut di Belitung.  Berbagai pengalaman seru bisa Anda nikmati. Anda bisa menikmati indahnya pantai yang tidak terlalu ramai, menjelajahi lautan dengan boat, hingga yang menjadi favorit utama wisatawan adalah menikmati pemandangan hutan mangrove yang terletak di pinggir pantai dan berteduh di rumah pohon. Semua bisa Anda dapatkan di sini.",
-          "picture": ""
-        },
-        {
-          "id": "2",
-          "name": "Danau Kaolin",
-          "description": "Wisata laut tidak hanya melulu pantai. Anda juga bisa mencoba untuk berkunjung ke danau, wilayah perairan yang terlihat bagaikan miniatur dari lautan.  Salah satu destinasi danau yang sangat terkenal di Belitung adalah Danau Kaolin, yang menawarkan panorama hamparan pasir putih dengan air danau sangat bening. Persis seperti Maldives dengan spot yang Instagramable! Uniknya,Danau Kaolin ini merupakan destinasi wisata yang dulunya merupakan bekas penambangan mineral berupa Kaolin. Kubangan besar bekas tambang tersebut kemudian berubah menjadi hamparan danau yang luar biasa indah, bisa disaksikan hingga kini. ",
-          "picture": ""
-        },
-        {
-          "id": "3",
-          "name": "Pantai Tanjung Kelayang",
-          "description": "Salah satu destinasi wisata laut berbentuk pantai. Karena keindahannya, menjadikan Pulau Belitung dijuluki sebagai Maldives Indonesia.  Pantai yang berlokasi di Kecamatan Sijuk, Kabupaten Belitung ini dikenal dengan salah satu batu granit raksasa yang berbentuk lambang negara Indonesia yaitu Burung Garuda, serta hamparan pasir putih yang memesona dan eksotis.  Oleh karena keindahan serta luasnya area pantai tersebut, Pantai Tanjung Kelayang dijuluki sebagai ‘Sepotong Surga di Kepulauan Belitung’ dan telah ditetapkan sebagai Kawasan Ekonomi Khusus (KEK) oleh Pemerintah Indonesia. ",
-          "picture": ""
-        }
-      ],
-      "Nias": [
-        {
-          "id": "1",
-          "name": "Desa Bawomataluo",
-          "description": "Desa Bawomataluo adalah  destinasi wisata terbaik di Kepulauan Nias yang wajib dikunjungi. Desa ini berdiri di atas bukit, tepatnya sekitar 15 km dari daerah tujuan wisata populer para peselancar dunia, Teluk Dalam.  Desa Bawomataluo terdiri dari kumpulan rumah adat milik para penduduk yang posisinya saling berhadapan dengan jarak 4 meter. Di bagian tengah kompleks rumah adat tersebut, terdapat susunan batu yang sangat penting. Susunan batu yang berada di area terbuka itu merupakan pusat upacara-upacara adat dan kegiatan ritual seperti upacara Lompat Batu.Mengingat tingginya nilai adat dan kentalnya budaya masyarakat di Desa Bawomataluo, objek wisata di Kepulauan Nias ini telah dimasukan ke dalam nominasi Situs Warisan Dunia UNESCO. Untuk mencapai Desa Bawomataluo, kamu harus melewati 7 tingkat di bagian pertama dan 70 tingkat di bagian kedua dengan jumlah anak tangga sebangak 88 buah.",
-          "picture": "https://i.ibb.co/vm9fyV4/bawomataluo.jpg"
-        },
-        {
-          "id": "2",
-          "name": "Pantai Gawu Soyo",
-          "description": "Pantai dengan pasir berwarna pink tak hanya bisa kamu temukan di Pulau Komodo, tapi juga di kawasan Kepulauan Nias. Tepatnya di Pantai Gawu Soyo yang terletak di desa Ombolota, Kabupaten Nias utara, kamu bisa menikmati alternatif wisata pantai berpasir pink di Pulau Sumatera. Destinasi tempat wisata di Kepulauan Nias satu ini tergolong masih asri dan belum banyak fasilitas wisata karena belum terlalu terkenal. Konon menurut penduduk sekitar, pasir berwarna pink tersebut berasal dari pertumpahan darah di pantai di zaman dulu. Berkunjung ke sini, kamu juga bisa menjelajah kehidupan bawah air lautnya yang indah.",
-          "picture": "https://i.ibb.co/nB2GVM0/pantai-gawu-soyo.jpg"
-        },
-        {
-          "id": "3",
-          "name": "Pulau Hinako",
-          "description": "Sebagai pulau terbesar yang berada di gugusan Kepulauan Hinako di Nias Barat, Pulau Hinako menawarkan keindahan yang tak kalah jika dibandingkan objek wisata Kepulauan Nias lainnya. Keindahan biota laut Pulau Hinako sangat terkenal hingga mancanegara. Maka tak heran pulau ini kerap dikunjungi wisatawan dari mancanegara. Karena berbatasan langsung dengan Samudera Hindia, pantai di Pulau Hinako memiliki ombak yang relatif besar sehingga cocok untuk berselancar. Tak hanya berselancar, kamu yang berkunjung ke destinasi wisata di Kepulauan Nias ini bisa melakukan beragam aktifitas seperti memancing, menyelam, dan snorkeling.",
-          "picture": "https://i.ibb.co/5RRXV33/pulau-hinako.jpg"
-        }
-      ],
-      "Banten": [
-        {
-          "id": "1",
-          "name": "Pulau Umang",
-          "description": "Salah satu tempat wisata yang berada di Banten. Pulau umang merupakan sebuah pulau dengan luas sekitar 5 hektar yang terletak di kawasan objek wisata pantai Pandelglang yang berdekatan dengan kawasan wisata Tanjung Lesung. Rute yang dilalui menu ke Pulau umang dari Jakarta, gunakan tol Jakarta, Merak, lalu keluar pintu Serang Timur (KM 71), kemudian lanjut ke jalan Pandeglang, Labuan, Taragong atau bisa melewaji jalur alternatif dengan mengakses Tol Jakarta menuju Merak, lalu keluar di pintu Cilegon Barat, ikuti rute Anyer-Carita, ke Labuan, Tarogong, Citereup, Cigeulis, Cibalung, Cimanggu, dan Kecamatan Sumur. Selanjutnya pergi ke pinggir Pantai Sumur untuk mendapatkan tiket penyebrangan, sewa speed boad untuk menyeberang dari Pantai Sumur menuju Pulau Umang.Fasilitas yang disediakan diantaranya kolang renang, karauke, sara olahraga, ruang pertemuan permainan air seperti snorkeling, memancing, berenang, bermain jet ski atau banana boat.  ",
-          "picture": "https://i.ibb.co/vm9fyV4/bawomataluo.jpg"
-        },
-        {
-          "id": "2",
-          "name": "Taman Nasional Ujung Kulon",
-          "description": "Taman Nasional Ujung Kulon terletak di ujung barat Pulau Jawa merupakan tempat wisata sebagai tempat perlindungan badak. Tempat yang bisa dikunjungi diantaranya Pulau Peucang Pulau di seberang barat pulau utama Jawa ini mempunyai karakteristik pantai berpasir putih yang lapang serta perairan yang jernih dan tenang. Di pulau ini menyediakan penginapan bagi pengunjung. Kegiatan yang bisa dilakukan di Pulau Peucang antara lain trekking ke Karang Copong untuk menyaksikan matahari terbenam, berenang dan snorkeling di perairan dangkal hingga menyelam ke taman bawah laut yang indah.Pulau HandeleumTerletak di antara gugusan pulau-pulau kecil yang berada di ujung timur laut pantai Semenanjung Ujung Kulon. Pulau Handeleum merupakan satu tempat untuk traverler yang hobi petualangan. Kegiatan yang ada di pulau ini menyediakan wisata adventure.",
-          "picture": "https://i.ibb.co/nB2GVM0/pantai-gawu-soyo.jpg"
-        },
-        {
-          "id": "3",
-          "name": "Kampung Baduy",
-          "description": "merupakan bagian dari wisata alam Banten yang tidak hanya menyuguhkan eksotisme lingkungan dan hewan, namun interaksi dengan penduduknya yang inspiratif. Lokasinya yang terletak di Desa Lebak, Banten ini merupakan kampung asli suku Baduy, yang masih sangat menjaga wasiat dan budaya turun temurun dari nenek moyang mereka.",
-          "picture": "https://i.ibb.co/5RRXV33/pulau-hinako.jpg"
-        }
-      ]
+  "Belitung": [
+    {
+      "id": "1",
+      "name": "Pulau Lebong",
+      "description": "Bagi wisatawan yang ingin merasakan pengalaman berwisata di pulau privat layaknya Maldives, Leebong Island atau Pulau Leebong ini adalah destinasi yang tepat untukmu! Kawasan yang memiliki hamparan pantai indah ini dikelola oleh pihak swasta dan menjadi salah satu primadona wisata laut di Belitung.  Berbagai pengalaman seru bisa Anda nikmati. Anda bisa menikmati indahnya pantai yang tidak terlalu ramai, menjelajahi lautan dengan boat, hingga yang menjadi favorit utama wisatawan adalah menikmati pemandangan hutan mangrove yang terletak di pinggir pantai dan berteduh di rumah pohon. Semua bisa Anda dapatkan di sini.",
+      "picture": ""
+    },
+    {
+      "id": "2",
+      "name": "Danau Kaolin",
+      "description": "Wisata laut tidak hanya melulu pantai. Anda juga bisa mencoba untuk berkunjung ke danau, wilayah perairan yang terlihat bagaikan miniatur dari lautan.  Salah satu destinasi danau yang sangat terkenal di Belitung adalah Danau Kaolin, yang menawarkan panorama hamparan pasir putih dengan air danau sangat bening. Persis seperti Maldives dengan spot yang Instagramable! Uniknya,Danau Kaolin ini merupakan destinasi wisata yang dulunya merupakan bekas penambangan mineral berupa Kaolin. Kubangan besar bekas tambang tersebut kemudian berubah menjadi hamparan danau yang luar biasa indah, bisa disaksikan hingga kini. ",
+      "picture": "https://cdns.klimg.com/merdeka.com/i/w/news/2021/06/14/1318044/content_images/670x335/20210614122253-1-pesona-danau-kaolin-di-bangka-belitung-001-ibrahim-hasan.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Pantai Tanjung Kelayang",
+      "description": "Salah satu destinasi wisata laut berbentuk pantai. Karena keindahannya, menjadikan Pulau Belitung dijuluki sebagai Maldives Indonesia.  Pantai yang berlokasi di Kecamatan Sijuk, Kabupaten Belitung ini dikenal dengan salah satu batu granit raksasa yang berbentuk lambang negara Indonesia yaitu Burung Garuda, serta hamparan pasir putih yang memesona dan eksotis.  Oleh karena keindahan serta luasnya area pantai tersebut, Pantai Tanjung Kelayang dijuluki sebagai ‘Sepotong Surga di Kepulauan Belitung’ dan telah ditetapkan sebagai Kawasan Ekonomi Khusus (KEK) oleh Pemerintah Indonesia. ",
+      "picture": ""
     }
-  }
+  ],
+  "Nias": [
+    {
+      "id": "1",
+      "name": "Desa Bawomataluo",
+      "description": "Desa Bawomataluo adalah  destinasi wisata terbaik di Kepulauan Nias yang wajib dikunjungi. Desa ini berdiri di atas bukit, tepatnya sekitar 15 km dari daerah tujuan wisata populer para peselancar dunia, Teluk Dalam.  Desa Bawomataluo terdiri dari kumpulan rumah adat milik para penduduk yang posisinya saling berhadapan dengan jarak 4 meter. Di bagian tengah kompleks rumah adat tersebut, terdapat susunan batu yang sangat penting. Susunan batu yang berada di area terbuka itu merupakan pusat upacara-upacara adat dan kegiatan ritual seperti upacara Lompat Batu.Mengingat tingginya nilai adat dan kentalnya budaya masyarakat di Desa Bawomataluo, objek wisata di Kepulauan Nias ini telah dimasukan ke dalam nominasi Situs Warisan Dunia UNESCO. Untuk mencapai Desa Bawomataluo, kamu harus melewati 7 tingkat di bagian pertama dan 70 tingkat di bagian kedua dengan jumlah anak tangga sebangak 88 buah.",
+      "picture": "https://i.ibb.co/vm9fyV4/bawomataluo.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Pantai Gawu Soyo",
+      "description": "Pantai dengan pasir berwarna pink tak hanya bisa kamu temukan di Pulau Komodo, tapi juga di kawasan Kepulauan Nias. Tepatnya di Pantai Gawu Soyo yang terletak di desa Ombolota, Kabupaten Nias utara, kamu bisa menikmati alternatif wisata pantai berpasir pink di Pulau Sumatera. Destinasi tempat wisata di Kepulauan Nias satu ini tergolong masih asri dan belum banyak fasilitas wisata karena belum terlalu terkenal. Konon menurut penduduk sekitar, pasir berwarna pink tersebut berasal dari pertumpahan darah di pantai di zaman dulu. Berkunjung ke sini, kamu juga bisa menjelajah kehidupan bawah air lautnya yang indah.",
+      "picture": "https://i.ibb.co/nB2GVM0/pantai-gawu-soyo.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Pulau Hinako",
+      "description": "Sebagai pulau terbesar yang berada di gugusan Kepulauan Hinako di Nias Barat, Pulau Hinako menawarkan keindahan yang tak kalah jika dibandingkan objek wisata Kepulauan Nias lainnya. Keindahan biota laut Pulau Hinako sangat terkenal hingga mancanegara. Maka tak heran pulau ini kerap dikunjungi wisatawan dari mancanegara. Karena berbatasan langsung dengan Samudera Hindia, pantai di Pulau Hinako memiliki ombak yang relatif besar sehingga cocok untuk berselancar. Tak hanya berselancar, kamu yang berkunjung ke destinasi wisata di Kepulauan Nias ini bisa melakukan beragam aktifitas seperti memancing, menyelam, dan snorkeling.",
+      "picture": "https://i.ibb.co/5RRXV33/pulau-hinako.jpg"
+    }
+  ],
+  "Banten": [
+    {
+      "id": "1",
+      "name": "Pulau Umang",
+      "description": "Salah satu tempat wisata yang berada di Banten. Pulau umang merupakan sebuah pulau dengan luas sekitar 5 hektar yang terletak di kawasan objek wisata pantai Pandelglang yang berdekatan dengan kawasan wisata Tanjung Lesung. Rute yang dilalui menu ke Pulau umang dari Jakarta, gunakan tol Jakarta, Merak, lalu keluar pintu Serang Timur (KM 71), kemudian lanjut ke jalan Pandeglang, Labuan, Taragong atau bisa melewaji jalur alternatif dengan mengakses Tol Jakarta menuju Merak, lalu keluar di pintu Cilegon Barat, ikuti rute Anyer-Carita, ke Labuan, Tarogong, Citereup, Cigeulis, Cibalung, Cimanggu, dan Kecamatan Sumur. Selanjutnya pergi ke pinggir Pantai Sumur untuk mendapatkan tiket penyebrangan, sewa speed boad untuk menyeberang dari Pantai Sumur menuju Pulau Umang.Fasilitas yang disediakan diantaranya kolang renang, karauke, sara olahraga, ruang pertemuan permainan air seperti snorkeling, memancing, berenang, bermain jet ski atau banana boat.  ",
+      "picture": "https://i.ibb.co/vm9fyV4/bawomataluo.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Taman Nasional Ujung Kulon",
+      "description": "Taman Nasional Ujung Kulon terletak di ujung barat Pulau Jawa merupakan tempat wisata sebagai tempat perlindungan badak. Tempat yang bisa dikunjungi diantaranya Pulau Peucang Pulau di seberang barat pulau utama Jawa ini mempunyai karakteristik pantai berpasir putih yang lapang serta perairan yang jernih dan tenang. Di pulau ini menyediakan penginapan bagi pengunjung. Kegiatan yang bisa dilakukan di Pulau Peucang antara lain trekking ke Karang Copong untuk menyaksikan matahari terbenam, berenang dan snorkeling di perairan dangkal hingga menyelam ke taman bawah laut yang indah.Pulau HandeleumTerletak di antara gugusan pulau-pulau kecil yang berada di ujung timur laut pantai Semenanjung Ujung Kulon. Pulau Handeleum merupakan satu tempat untuk traverler yang hobi petualangan. Kegiatan yang ada di pulau ini menyediakan wisata adventure.",
+      "picture": "https://i.ibb.co/nB2GVM0/pantai-gawu-soyo.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Kampung Baduy",
+      "description": "merupakan bagian dari wisata alam Banten yang tidak hanya menyuguhkan eksotisme lingkungan dan hewan, namun interaksi dengan penduduknya yang inspiratif. Lokasinya yang terletak di Desa Lebak, Banten ini merupakan kampung asli suku Baduy, yang masih sangat menjaga wasiat dan budaya turun temurun dari nenek moyang mereka.",
+      "picture": "https://i.ibb.co/5RRXV33/pulau-hinako.jpg"
+    }
+  ]
 }
