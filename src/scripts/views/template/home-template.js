@@ -2,9 +2,9 @@
 // template untuk menampilkan resto item
 
 const createBudayaItemTemplate = (data) => `
-<div class="card">
-    <img tabindex="0" src="${data.picture}" class="lazyload card-image" alt="${data.name}"/>
-    <div class="card__content">
+<div class="budaya-card">
+    <img tabindex="0" src="${data.picture}" class="lazyload budaya-card-image" alt="${data.name}"/>
+    <div class="budaya-card__content">
       <h2>${data.name}</h2>
       <a href="#">Read More</a>
     </div>
@@ -12,4 +12,14 @@ const createBudayaItemTemplate = (data) => `
     
   `;
 
-export { createBudayaItemTemplate };
+const createUMKMItemTemplate = (data) => `
+<div class="umkm-card">
+<img tabindex="0" src="${data.picture}" class="lazyload umkm-card-image" alt="${data.name}"/>
+<div class="umkm-card__content">
+  <h2>${data.name}</h2>
+  <a href="#">See Product</a>
+</div>
+</div>
+  `;
+
+export { createBudayaItemTemplate, createUMKMItemTemplate };

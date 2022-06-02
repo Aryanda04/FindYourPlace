@@ -2,8 +2,9 @@
 /* eslint-disable max-len */
 // eslint-disable-next-line import/no-unresolved
 import data from '../../data/Budaya.json';
+import dataUMKM from '../../data/UMKM.json';
 // import untuk mengambiml dari file template
-import { createBudayaItemTemplate } from '../template/home-template';
+import { createBudayaItemTemplate, createUMKMItemTemplate } from '../template/home-template';
 
 const Home = {
   async render() {
@@ -27,19 +28,31 @@ const Home = {
         <button class="scroll-icon" id="btnr2"><i class="fas fa-angle-double-right"></i></button>
         </div>
       </div>
+      <section id="umkm-section"></section>
+
+
 
     `;
   },
 
   async afterRender() {
-    console.log(data);
+    // console.log(data);
+    const randomly = () => Math.random() - 0.4;
     const arrBudaya = [];
+    const arrUMKM = [];
     const keys = Object.keys(data);
+    const keys2 = Object.keys(dataUMKM);
 
+    keys2.forEach((key) => {
+      arrUMKM.push(...dataUMKM[key]);
+      // console.log(dataUMKM[key]);
+    });
+    const dynamicarrUMKM = [].concat(arrUMKM).sort(randomly);
+    console.log(dynamicarrUMKM);
+    console.log(arrUMKM);
     keys.forEach((key) => {
-      // console.log(key);
       arrBudaya.push(...data[key]);
-      console.log(data[key]);
+      // console.log(data[key]);
     });
     console.log(arrBudaya);
 
@@ -49,6 +62,8 @@ const Home = {
     // list container untuk menentukan kontainer mana yang akan dipakai untuk digunakan pada template
     // disini menggunakan explore restaurant
     const listContainer = document.querySelector('#explore-restaurant');
+    const umkmContainer = document.querySelector('#umkm-section');
+
     const iconleft = document.querySelector('#btnl');
     iconleft.addEventListener('click', async () => {
       const left = document.querySelector('.scroll-images');
@@ -59,7 +74,6 @@ const Home = {
       const right = document.querySelector('.scroll-images');
       right.scrollBy(-350, 0);
     });
-
     const iconright2 = document.querySelector('#btnr2');
     iconright2.addEventListener('click', async () => {
       const right = document.querySelector('.scroll-images');
@@ -67,6 +81,9 @@ const Home = {
     });
 
     // Fungsi ini akan dipanggil setelah render()
+    dynamicarrUMKM.slice(0, 6).forEach((i) => {
+      umkmContainer.innerHTML += createUMKMItemTemplate(i);
+    });
 
     arrBudaya.forEach((i) => {
       listContainer.innerHTML += createBudayaItemTemplate(i);
