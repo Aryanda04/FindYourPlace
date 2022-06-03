@@ -11,9 +11,19 @@ const UMKM = {
   async afterRender() {
     // Fungsi ini akan dipanggil setelah render()
     console.log(data);
+    const contUmkm = [];
+    const keys = Object.keys(data);
+
+    keys.forEach((key) => {
+      // console.log(key);
+      contUmkm.push(...data[key]);
+      console.log(data[key]);
+    });
+    console.log(contUmkm);
+
     const listContainer = document.querySelector("#explore-umkm");
 
-    data.banten.forEach((umkmbanten) => {
+    contUmkm.forEach((umkmbanten) => {
       listContainer.innerHTML += createUmkmItemTemplate(umkmbanten);
     });
   },

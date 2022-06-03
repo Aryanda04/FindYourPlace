@@ -19,24 +19,12 @@
             "picture": "https://i.ibb.co/Yjv8gXB/lebak-sinar-kencana.jpg"
         }
     ],
-    "Belitung": [
+    "Nias": [
         {
-            "id": "banten-umkm-1",
-            "name": "Kang Ngemil",
-            "description": "Produk UMKM home made yang berlokasi di Serang Banten. Produk kripik yang terbuat dari sukun menyediakan varian rasa original. Manfaat buah mengkonsumsi buah sukun diantaranya mengurangi resiko cedera otot dan sendi, untuk diet karna bebas gluten, mencegah infeksi bakteri, menurunkan resiko diabetes, mendukung kesehatan mata. ",
+            "id": "nias-umkm-1",
+            "name": "Batik & Jewelry Nias",
+            "description": "Produk UMKM berupa batik dan perhiasan dari berbagai kota dan kabupaten di kepulauan Nias.",
             "picture": "https://i.ibb.co/bPH3pLk/kang-ngemil-1.png"
-        },
-        {
-            "id": "banten-umkm-2",
-            "name": "Gula Aren",
-            "description": "Produk UMKM berupa gula yang memiliki bahan dasar jahe merah yang di produksi sendiri tanpa campuran apapun. Produk UMKM berasal dari Banten diolah dengan proses dari nira aren murni langsung menjadi gula, pengeringan melalui oven mesin kadar air 1%, pengayakan melalui oven mesin kadar air 1%, pengayakan melalui mesin mesin ayak mesh 16-18, serta kemasan food frade st puch+zipper lock.",
-            "picture": "https://i.ibb.co/DrJmncX/gula-aren.jpg"
-        },
-        {
-            "id": "banten-umkm-3",
-            "name": "Lebak Sinar Kencana",
-            "description": "Produk lokal buatan UMKM yang berasal dari Banten menyediakan gula semut atau bubuk asli aren 100% organik tanpa campuran bahan yang membahayakan. Gula ini dapa dikonsumsi serta menjadi tambahan untuk pembuatan makanan atau minuman serta bisa dijadikan buah tangan atau oleh-oleh untuk kerabat. Menyediakan 100g dan 250g kemasan untuk dijual.",
-            "picture": "https://i.ibb.co/Yjv8gXB/lebak-sinar-kencana.jpg"
         }
     ]
 }
