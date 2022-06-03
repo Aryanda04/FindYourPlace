@@ -215,6 +215,7 @@
 }
 
 .wisata-card {
+    width: 300px;
     border-radius: 8px;
     overflow: hidden;
     color: black;
