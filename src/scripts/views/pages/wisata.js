@@ -1,20 +1,32 @@
-import data from '../../data/Wisata.json';
-import { createWisataItemTemplate } from '../template/wisata-template';
+import data from "../../data/Wisata.json";
+import { createWisataItemTemplate } from "../template/wisata-template";
 
 const Wisata = {
   async render() {
     return `
+    <custom-jumbotron></custom-jumbotron>
         <h2>Tempat wisata  page</h2>
+        <section id="explore-wisata"></section>
+
       `;
   },
 
   async afterRender() {
     // Fungsi ini akan dipanggil setelah render()
     console.log(data);
-    const listContainer = document.querySelector('#explore-wisata');
+    const contentWisata = [];
+    const keys = Object.keys(data);
 
-    data.Wisata.forEach((wisataBelitung) => {
-      listContainer.innerHTML += createWisataItemTemplate(wisataBelitung);
+    keys.forEach((key) => {
+      contentWisata.push(...data[key]);
+      console.log(data[key]);
+    });
+    console.log(contentWisata);
+
+    const listContainer = document.querySelector("#explore-wisata");
+
+    contentWisata.forEach((wisata) => {
+      listContainer.innerHTML += createWisataItemTemplate(wisata);
     });
   },
 };

@@ -1,22 +1,17 @@
-const createWisataItemTemplate = (data) => `
-    <div tabindex="0" class="card">
-      <a href="#/resto/${data.id}" class="card-a-tag">
-        <div class="img-container">
-          <img tabindex="0" src="${data.picture}" class="lazyload card-image" alt="${data.name}"/>
-          <span tabindex="0" class="card-rating">
-            <span>${data.name}</span>
-          </span>
+const createWisataItemTemplate = (content) => `
+    <div class="wisata" tabindex=0>
+      <a href="#/wisata/${content.id}" class="wisata-link">
+        <div class="img-wisata">
+          <img tabindex="0" src="${content.picture}" class="wisata_image" alt="${content.name}"/>
         </div>
 
-        <div tabindex="0" class="card-content">
-        <p class="card-content-rating">
-        <i title="ratings" class="fa fa-star"></i>
-          <span>${data.description}</span></p>
-          <h1 class="card-content-title">${data.name}</h1>
-          <p class="truncate">${data.description}</p>
+        <div class="umkm-desc" tabindex="0">
+          <span>${content.descripton}</span></p>
+          <h1 class="card-content-title">${content.name}</h1>
+          <p class="truncate">${content.description}</p>
         </div>
-      </a>
-    </div>
+      <a>
+    <div>
     `;
 
 export { createWisataItemTemplate };
