@@ -21,14 +21,14 @@ const DetailUMKM = {
     });
 
     arrItem = arrItem.flat();
-    console.log(arrItem);
+    // console.log(arrItem);
 
     const detailContainer = document.querySelector('#detail');
 
     for (let index = 0; index < arrItem.length; index++) {
       if (arrItem[index].id === url.id) {
         detailContainer.innerHTML += createUMKMDetailTemplate(arrItem[index]);
-        console.log(index.id);
+        // console.log(index.id);
       }
     }
   },

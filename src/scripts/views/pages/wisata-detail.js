@@ -30,7 +30,7 @@ const DetailWisata = {
         detailContainer.innerHTML += createWisataDetailTemplate(arrItem[index]);
         pictureContainer.innerHTML += createOtherWisataPicturesTemplate(arrItem[index]);
 
-        console.log(index.id);
+        // console.log(index.id);
       }
     }
   },
