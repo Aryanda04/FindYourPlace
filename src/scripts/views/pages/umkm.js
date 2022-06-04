@@ -11,12 +11,17 @@ const UMKM = {
   async afterRender() {
     // Fungsi ini akan dipanggil setelah render()
     console.log(data);
-    const contUmkm = [];
-    const keys = Object.keys(data);
+    const umkmBanten = [];
+    const umkmNias = [];
+    const umkmBelitung =[];
+    const umkmItem=[];
+    const keys1 = Object.keys(dataBanten);
+    const keys2 = Object.keys(dataNias);
+    const keys3 = Object.keys(dataBelitung);
 
     keys.forEach((key) => {
       // console.log(key);
-      contUmkm.push(...data[key]);
+      umkmBanten.push(...dataBanten[key]);
       console.log(data[key]);
     });
     console.log(contUmkm);
