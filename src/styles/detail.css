@@ -2,9 +2,16 @@
 
 .detail-container {
     width: 80%;
+    min-height: 10vh;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+}
+
+.filler {
+    /* background-color: aqua; */
+    display: block;
+    min-height: 25vh;
 }
 
 .detail-container .detail-container-left {
@@ -45,6 +52,20 @@
     background-color: antiquewhite;
     padding: 0.5rem;
     border-radius: 1rem 0 1rem 0;
+}
+
+.detail-container .detail-container-right a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0.5rem;
+    background-color: antiquewhite;
+    margin: 1rem 1rem;
+}
+
+.detail-container .detail-container-right a:hover {
+    opacity: 0.6;
 }
 
 #picture-detail {

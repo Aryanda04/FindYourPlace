@@ -65,13 +65,7 @@ const Home = {
       arrItem.push(...dataWisata[key]);
     });
     const dynamicarrWisata = [].concat(arrWisata).sort(randomly);
-    console.log(arrItem);
 
-    // const loading = document.querySelector('#loading');
-    // const mainContainer = document.querySelector('#main-container');
-
-    // list container untuk menentukan kontainer mana yang akan dipakai untuk digunakan pada template
-    // disini menggunakan explore restaurant
     const budayaContainer = document.querySelector('#budaya-section');
     const umkmContainer = document.querySelector('#umkm-section');
     const wisataContainer = document.querySelector('#wisata-section');
@@ -92,7 +86,6 @@ const Home = {
       right.scrollBy(-350, 0);
     });
 
-    // Fungsi ini akan dipanggil setelah render()
     dynamicarrUMKM.slice(0, 4).forEach((i) => {
       umkmContainer.innerHTML += createUMKMItemTemplate(i);
     });

@@ -5,6 +5,7 @@
       "location": "Membalong, Belitung",
       "name": "Pulau Lebong",
       "distance": "33.1",
+      "maps": "https://www.google.com/maps/place/Leebong+Island+Resort/@-2.9613387,107.5318078,17z/data=!3m1!4b1!4m8!3m7!1s0x2e16e27b0abb21d3:0xc3840fdc06ad1c08!5m2!4m1!1i2!8m2!3d-2.9613387!4d107.5339965",
       "facility": [
         "Mosque",
         "Toilet",
@@ -31,6 +32,7 @@
       "location": "Tanjungpandan, Belitung",
       "name": "Danau Kaolin",
       "distance": "6",
+      "maps": "https://www.google.com/maps/place/Danau+Kaolin+Belitung/@-2.736802,107.6796667,17z/data=!3m1!4b1!4m5!3m4!1s0x2e173df206524849:0x542448144f40cf88!8m2!3d-2.736802!4d107.6818554",
       "facility": [
         "Toilet"
       ],
@@ -54,6 +56,7 @@
       "location": "Tanjungpandan, Belitung",
       "name": "Pantai Tanjung Kelayang",
       "distance": "25.5",
+      "maps": "https://www.google.com/maps?channel=crow5&client=firefox-b-d&q=tanjung+kelayang&um=1&ie=UTF-8&sa=X&ved=2ahUKEwi03vCN25P4AhXLRmwGHb3ECKIQ_AUoAXoECAIQAw",
       "facility": [
         "Mosque",
         "Toilet",

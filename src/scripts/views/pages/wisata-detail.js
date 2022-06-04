@@ -3,7 +3,7 @@ import urlParser from '../../routes/url-parser';
 import dataWisata from '../../data/Wisata.json';
 import dataBudaya from '../../data/Budaya.json';
 import dataUMKM from '../../data/UMKM.json';
-import { createDetailTemplate, createOtherWisataPicturesTemplate } from '../template/detail-template';
+import { createWisataDetailTemplate, createOtherWisataPicturesTemplate } from '../template/detail-template';
 
 const DetailWisata = {
   async render() {
@@ -27,7 +27,7 @@ const DetailWisata = {
 
     for (let index = 0; index < arrItem.length; index++) {
       if (arrItem[index].id === url.id) {
-        detailContainer.innerHTML += createDetailTemplate(arrItem[index]);
+        detailContainer.innerHTML += createWisataDetailTemplate(arrItem[index]);
         pictureContainer.innerHTML += createOtherWisataPicturesTemplate(arrItem[index]);
 
         console.log(index.id);
