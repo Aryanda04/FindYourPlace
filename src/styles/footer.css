@@ -3,89 +3,95 @@
  */
 
 footer {
-	border-top: 1px solid black;
+	position: sticky;
 	left: 0;
 	bottom: 0;
+	/* padding: 1rem 0; */
 	width: 100%;
 	background-color: antiquewhite;
-	color: white;
+	color: black;
 	text-align: center;
 }
 
-.footer-text {
-	font-size: large;
-	color: black;
-	padding: 12px;
+.top-footer-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 1rem;
+	margin: 0 1rem;
+	padding: 1rem 0;
+	border-bottom: 2px solid black;
+}
+
+.top-footer-container .footer-logo img {
+	width: 400px;
+	border-radius: 5px;
+}
+
+.top-footer-container .footer-logo {
+	border-radius: 5px;
+	overflow: hidden;
+	float: left;
+}
+
+.top-footer-container .footer-middle-text {
+	text-align: left;
+}
+
+.top-footer-container .footer-social-media {
+	text-align: center;
 	margin: auto;
 }
 
 
-/* .icon i{
-	color: black;
-} */
+.fa {
+	margin: 1rem;
+	padding: 1rem;
+	border-radius: 50%;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 auto;
+}
 
-.row a {
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-linkedin,
+.fa-github,
+.fa-link {
+	background: black;
 	color: white;
 }
 
-.row h4 {
-	color: black;
+
+footer .footer-bottom-text {
+	padding: 1rem 0;
 }
 
-.fa-facebook {
-	font-size: 25px;
-	padding: 10px;
+@media screen and (max-width: 1300px) {
+	.top-footer-container .footer-logo img {
+		width: 300px;
+	}
 }
 
-.fa-instagram {
-	font-size: 25px;
-	padding: 10px;
+@media screen and (max-width: 900px) {
+	.top-footer-container {
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
-.fa-twitter {
-	font-size: 25px;
-	padding: 10px;
-}
+@media screen and (max-width: 550px) {
+	.top-footer-container {
+		grid-template-columns: 1fr;
+	}
 
-.fa-youtube {
-	font-size: 25px;
-	padding: 10px;
-}
+	.top-footer-container .footer-middle-text {
+		text-align: center;
+	}
 
-.fa-whatsapp {
-	font-size: 25px;
-	padding: 10px;
-}
-
-#bawahweb {
-	font-size: 13px;
-	font-family: 'Raleway', sans-serif;
-}
-
-.copyright a {
-	color: white;
-}
-
-.navbar img {
-	width: 83px;
-}
-
-.list-group a {
-	color: black;
-}
-
-.teks h5 {
-	font-size: 20px;
-}
-
-.teks p {
-	font-size: 15px;
-}
-
-.form button {
-	position: center;
-}
-
-.link a {
-	color: red;
+	.top-footer-container .footer-logo img {
+		width: 250px;
+	}
 }

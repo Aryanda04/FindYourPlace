@@ -4,7 +4,6 @@
 import dataBudaya from '../../data/Budaya.json';
 import dataUMKM from '../../data/UMKM.json';
 import dataWisata from '../../data/Wisata.json';
-// import untuk mengambiml dari file template
 import { createBudayaItemTemplate, createUMKMItemTemplate, createWisataItemTemplate } from '../template/home-template';
 
 const Home = {

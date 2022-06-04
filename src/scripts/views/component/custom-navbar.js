@@ -10,7 +10,7 @@ class Navbar extends HTMLElement {
           <button id="hamburgerButton">☰</button>
         </div>
         <div class="app-bar__brand">
-<img class="img-logo" src="../images/logo/FYP-Logo.png" alt="">        </div>
+<img class="img-logo" src="../images/logo/FYP-Logo.png" alt="FYP Logo">        </div>
         <nav id="navigationDrawer" class="app-bar__navigation">
           <ul>
             <li><a href="#/">Home</a></li>
