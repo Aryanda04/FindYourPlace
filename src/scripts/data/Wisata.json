@@ -2,21 +2,78 @@
   "Belitung": [
     {
       "id": "blt-wsata-1",
+      "location": "Membalong, Belitung",
       "name": "Pulau Lebong",
+      "distance": "33.1",
+      "facility": [
+        "Mosque",
+        "Toilet",
+        "Restaurant",
+        "Outbond"
+      ],
       "description": "Bagi wisatawan yang ingin merasakan pengalaman berwisata di pulau privat layaknya Maldives, Leebong Island atau Pulau Leebong ini adalah destinasi yang tepat untukmu! Kawasan yang memiliki hamparan pantai indah ini dikelola oleh pihak swasta dan menjadi salah satu primadona wisata laut di Belitung.  Berbagai pengalaman seru bisa Anda nikmati. Anda bisa menikmati indahnya pantai yang tidak terlalu ramai, menjelajahi lautan dengan boat, hingga yang menjadi favorit utama wisatawan adalah menikmati pemandangan hutan mangrove yang terletak di pinggir pantai dan berteduh di rumah pohon. Semua bisa Anda dapatkan di sini.",
-      "picture": "https://i.ibb.co/pQcTTNg/pulau-lebong.jpg"
+      "picture": "https://i.ibb.co/pQcTTNg/pulau-lebong.jpg",
+      "pictures_url": [
+        "https://i.ibb.co/W3SKJbS/tanjung-kelayang-cheppy-ceper.jpg",
+        "https://i.ibb.co/rfbgWHG/tanjung-kelayang-2.jpg",
+        "https://i.ibb.co/Cw4w5wS/tanjungkelayang-3.jpg",
+        "https://i.ibb.co/K54X6Xm/tanjungkelayang-4.jpg"
+      ],
+      "pictures_source": [
+        "https://www.instagram.com/p/CeLOC-qvQSL/?utm_source=ig_web_copy_link",
+        "https://www.instagram.com/p/CeLUM3jPWuP/?utm_source=ig_web_copy_link",
+        "https://www.instagram.com/p/CeDHIQwv7wC/?utm_source=ig_web_copy_link",
+        "https://travel.kompas.com/read/2020/03/12/100300827/pesona-tanjung-kelayang-sepotong-surga-di-semenanjung-belitung"
+      ]
     },
     {
       "id": "blt-wisata-2",
+      "location": "Tanjungpandan, Belitung",
       "name": "Danau Kaolin",
+      "distance": "6",
+      "facility": [
+        "Toilet"
+      ],
       "description": "Wisata laut tidak hanya melulu pantai. Anda juga bisa mencoba untuk berkunjung ke danau, wilayah perairan yang terlihat bagaikan miniatur dari lautan.  Salah satu destinasi danau yang sangat terkenal di Belitung adalah Danau Kaolin, yang menawarkan panorama hamparan pasir putih dengan air danau sangat bening. Persis seperti Maldives dengan spot yang Instagramable! Uniknya,Danau Kaolin ini merupakan destinasi wisata yang dulunya merupakan bekas penambangan mineral berupa Kaolin. Kubangan besar bekas tambang tersebut kemudian berubah menjadi hamparan danau yang luar biasa indah, bisa disaksikan hingga kini. ",
-      "picture": "https://i.ibb.co/M9sCgNR/danau-kaolin.jpg"
+      "picture": "https://i.ibb.co/M9sCgNR/danau-kaolin.jpg",
+      "pictures_url": [
+        "https://i.ibb.co/W3SKJbS/tanjung-kelayang-cheppy-ceper.jpg",
+        "https://i.ibb.co/rfbgWHG/tanjung-kelayang-2.jpg",
+        "https://i.ibb.co/Cw4w5wS/tanjungkelayang-3.jpg",
+        "https://i.ibb.co/K54X6Xm/tanjungkelayang-4.jpg"
+      ],
+      "pictures_source": [
+        "https://www.instagram.com/p/CeLOC-qvQSL/?utm_source=ig_web_copy_link",
+        "https://www.instagram.com/p/CeLUM3jPWuP/?utm_source=ig_web_copy_link",
+        "https://www.instagram.com/p/CeDHIQwv7wC/?utm_source=ig_web_copy_link",
+        "https://travel.kompas.com/read/2020/03/12/100300827/pesona-tanjung-kelayang-sepotong-surga-di-semenanjung-belitung"
+      ]
     },
     {
       "id": "blt-wisata-3",
+      "location": "Tanjungpandan, Belitung",
       "name": "Pantai Tanjung Kelayang",
+      "distance": "25.5",
+      "facility": [
+        "Mosque",
+        "Toilet",
+        "Restaurant",
+        "Outbond"
+      ],
       "description": "Salah satu destinasi wisata laut berbentuk pantai. Karena keindahannya, menjadikan Pulau Belitung dijuluki sebagai Maldives Indonesia.  Pantai yang berlokasi di Kecamatan Sijuk, Kabupaten Belitung ini dikenal dengan salah satu batu granit raksasa yang berbentuk lambang negara Indonesia yaitu Burung Garuda, serta hamparan pasir putih yang memesona dan eksotis.  Oleh karena keindahan serta luasnya area pantai tersebut, Pantai Tanjung Kelayang dijuluki sebagai ‘Sepotong Surga di Kepulauan Belitung’ dan telah ditetapkan sebagai Kawasan Ekonomi Khusus (KEK) oleh Pemerintah Indonesia. ",
-      "picture": "https://i.ibb.co/BgfQfZ1/pantai-tanjung-kelayang.jpg"
+      "picture": "https://i.ibb.co/BgfQfZ1/pantai-tanjung-kelayang.jpg",
+      "pictures_url": [
+        "https://i.ibb.co/W3SKJbS/tanjung-kelayang-cheppy-ceper.jpg",
+        "https://i.ibb.co/rfbgWHG/tanjung-kelayang-2.jpg",
+        "https://i.ibb.co/Cw4w5wS/tanjungkelayang-3.jpg",
+        "https://i.ibb.co/K54X6Xm/tanjungkelayang-4.jpg"
+      ],
+      "pictures_source": [
+        "https://www.instagram.com/p/CeLOC-qvQSL/?utm_source=ig_web_copy_link",
+        "https://www.instagram.com/p/CeLUM3jPWuP/?utm_source=ig_web_copy_link",
+        "https://www.instagram.com/p/CeDHIQwv7wC/?utm_source=ig_web_copy_link",
+        "https://travel.kompas.com/read/2020/03/12/100300827/pesona-tanjung-kelayang-sepotong-surga-di-semenanjung-belitung"
+      ]
     }
   ],
   "Nias": [

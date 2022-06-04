@@ -1,14 +1,15 @@
+/* eslint-disable no-plusplus */
 import urlParser from '../../routes/url-parser';
 import dataWisata from '../../data/Wisata.json';
 import dataBudaya from '../../data/Budaya.json';
 import dataUMKM from '../../data/UMKM.json';
-import { createBudayaItemTemplate, createUMKMItemTemplate, createWisataItemTemplate } from '../template/home-template';
+import { createDetailTemplate, createOtherWisataPicturesTemplate } from '../template/detail-template';
 
-const Detail = {
+const DetailWisata = {
   async render() {
     return `
-          <h2>Detail Pages</h2>
           <section id="detail"></section>
+          <section id="picture-detail"></section>
         `;
   },
   async afterRender() {
@@ -20,26 +21,20 @@ const Detail = {
     });
 
     arrItem = arrItem.flat();
-    console.log(arrItem);
-    console.log(url.id);
+
     const detailContainer = document.querySelector('#detail');
-    // arrItem.some((value, index) => {
-    //   if (value.id === url.id) {
-    //     return value.id;
-    //   }
-    // });
-    // eslint-disable-next-line no-plusplus
+    const pictureContainer = document.querySelector('#picture-detail');
+
     for (let index = 0; index < arrItem.length; index++) {
       if (arrItem[index].id === url.id) {
-        detailContainer.innerHTML += createWisataItemTemplate(arrItem[index]);
+        detailContainer.innerHTML += createDetailTemplate(arrItem[index]);
+        pictureContainer.innerHTML += createOtherWisataPicturesTemplate(arrItem[index]);
+
         console.log(index.id);
       }
     }
-
-    // arrItem.forEach((url.id) => {
-    //   detailContainer.innerHTML += createBudayaItemTemplate(url.id);    });
   },
 
 };
 
-export default Detail;
+export default DetailWisata;

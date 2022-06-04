@@ -1,0 +1,124 @@
+/* css for detail pages  */
+
+.detail-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.detail-container .detail-container-left {
+    margin: 1rem;
+}
+
+.detail-container .detail-container-left img {
+    width: 400px;
+    height: 400px;
+}
+
+.detail-container .detail-container-right {
+    margin: 1rem;
+}
+
+.detail-container .detail-container-right h2 {
+    border-bottom: 2px solid black;
+    margin-bottom: 0.5rem;
+}
+
+.detail-container .detail-container-right svg {
+    color: black;
+    width: 20px;
+    height: 20px;
+}
+
+.detail-container .detail-container-right h4 {
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+
+.detail-container .detail-container-right span {
+    display: inline-flex;
+}
+
+
+.detail-container .detail-container-right .facility {
+    background-color: antiquewhite;
+    padding: 0.5rem;
+    border-radius: 1rem 0 1rem 0;
+}
+
+#picture-detail {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+#picture-detail h1 {
+    border-bottom: 2px solid black;
+    margin-bottom: 1rem;
+}
+
+.picture-detail-container {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    /* background-color: red; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.picture-detail-container .other-pictures {
+    margin: 0 auto;
+}
+
+.picture-detail-container img {
+    margin: 0 auto;
+    width: 220px;
+    height: 200px;
+}
+
+.picture-detail-container .link-picture a {
+    color: black;
+    text-decoration: none;
+}
+
+.picture-detail-container .link-picture {
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 1rem;
+    background-color: antiquewhite;
+    margin: 1rem auto;
+}
+
+.picture-detail-container .link-picture:hover {
+    opacity: 0.7;
+}
+
+
+
+
+@media screen and (max-width:1500px) {
+    .picture-detail-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+    .picture-detail-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .detail-container {
+        flex-direction: column;
+    }
+
+    .detail-container .detail-container-left img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .picture-detail-container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,5 +1,6 @@
 @import './navbar.css';
 @import './jumbotron.css';
+@import './detail.css';
 
 * {
     padding: 0;

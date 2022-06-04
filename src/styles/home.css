@@ -224,6 +224,32 @@
     margin: 1rem auto 0 auto;
 }
 
+.wisata-location {
+    border-radius: 5px 0 5px 0;
+    position: absolute;
+    background-color: antiquewhite;
+    font-size: 6px;
+    text-transform: uppercase;
+    color: black;
+    left: 0;
+    font-size: large;
+    padding: 0.4em 1.3em;
+    z-index: 1;
+}
+
+.wisata-location span {
+    display: inline-flex;
+}
+
+.wisata-location svg {
+    width: 10px;
+    margin-right: 4px;
+}
+
+.wisata-location p {
+    font-size: 10px;
+}
+
 .wisata-card-a-tag {
     text-decoration: none;
 }
@@ -239,7 +265,8 @@
 }
 
 .wisata-text {
-    background-color: #4CAF50;
+    white-space: nowrap;
+    background-color: #444;
     color: black;
     font-weight: 600;
     font-size: 16px;
@@ -264,6 +291,8 @@
 .wisata-card:hover .middle {
     opacity: 0.8;
 }
+
+
 
 
 
