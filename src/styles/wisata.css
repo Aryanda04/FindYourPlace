@@ -1,5 +1,5 @@
 .card-wisata {
-  background-color: green;
+  background-color: #e3e2e1;
   width: 80%;
   margin: auto;
   box-shadow: 0 4px 8px 0 #00000033;
@@ -9,8 +9,11 @@
   margin-bottom: 10px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .wisata-link {
-  background-color: purple;
   margin: auto;
   width: 80%;
   display: flex;
@@ -21,8 +24,10 @@
 }
 
 .img-wisata {
-  background-color: red;
   width: 50%;
+  box-shadow: 4px -1px 14px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px -1px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px -1px 14px 0px rgba(0, 0, 0, 0.75);
 }
 
 .img-wisata img {
@@ -33,23 +38,19 @@
 .wisata-image {
   padding: 20px;
   max-width: 20%;
-  background-color: pink;
 }
 
 .wisata-desc {
-  margin-left: 20px;
-  background-color: blue;
+  text-overflow: ellipsis;
   color: black;
-  width: 50%;
-  overflow: scroll;
   padding: 1.4em 2em;
   font-size: small;
   text-align: left;
 }
 
 .card-content-title-wisata {
-  width: 50%;
-  background-color: aqua;
+  margin-left: 20px;
+
   font-weight: bold;
   /* padding-bottom: 0.376em; */
   font-size: 18px;
@@ -61,12 +62,15 @@
 }
 
 .truncate-wisata {
+  margin-left: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
   line-height: 20px;
   text-indent: 50px;
   text-align: justify;
   margin-top: 10px;
   width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  background-color: yellow;
 }

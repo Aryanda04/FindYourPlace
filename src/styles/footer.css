@@ -14,12 +14,12 @@ footer {
 }
 
 .top-footer-container {
+	width: 80%;
 	display: grid;
 	grid-template-columns: fit-content(400px) 1fr 1fr;
 	gap: 1rem;
-	margin: 0 1rem;
+	margin: 0 auto;
 	padding: 1rem 0;
-	border-bottom: 2px solid black;
 }
 
 .top-footer-container .footer-logo img {
@@ -72,6 +72,7 @@ footer {
 
 
 footer .footer-bottom-text {
+	border-top: 2px solid black;
 	padding: 1rem 0;
 }
 
