@@ -5,7 +5,6 @@ import { createUmkmItemTemplate } from '../template/umkm-template';
 const UMKM = {
   async render() {
     return `
-    <custom-jumbotron></custom-jumbotron>
         <h2>UMKM EXPLORE</h2>
         <section id="explore-umkm"></section>
 

@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable import/prefer-default-export */
 // template untuk menampilkan resto item
 
@@ -39,4 +40,17 @@ const createWisataItemTemplate = (data) => `
   </a>
 </div>
 `;
-export { createBudayaItemTemplate, createUMKMItemTemplate, createWisataItemTemplate };
+
+const createOptionItemTemplate = (data) => `
+<select id="selectLocation">
+<option>Choose a number</option>
+  ${data.map(
+    (location) => `
+    <option value="#/detail/${location}"><b>${location}</b></option>
+    `,
+  ).join('')}
+</select>
+`;
+export {
+  createBudayaItemTemplate, createUMKMItemTemplate, createWisataItemTemplate, createOptionItemTemplate,
+};

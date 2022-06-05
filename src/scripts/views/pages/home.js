@@ -4,12 +4,15 @@
 import dataBudaya from '../../data/Budaya.json';
 import dataUMKM from '../../data/UMKM.json';
 import dataWisata from '../../data/Wisata.json';
-import { createBudayaItemTemplate, createUMKMItemTemplate, createWisataItemTemplate } from '../template/home-template';
+import {
+  createBudayaItemTemplate, createUMKMItemTemplate, createOptionItemTemplate, createWisataItemTemplate,
+} from '../template/home-template';
 
 const Home = {
   async render() {
     return `
     <custom-jumbotron></custom-jumbotron>
+    <section id="select-container"></section>
       <h2 class="tagline-home">Recomendation Place</h2>
       <section id="wisata-section"></section>
 
@@ -50,6 +53,25 @@ const Home = {
     const keys = Object.keys(dataBudaya);
     const keys2 = Object.keys(dataUMKM);
     const keys3 = Object.keys(dataWisata);
+    console.log(keys);
+
+    // OPTION SECTION
+    const selectContainer = document.querySelector('#select-container');
+    selectContainer.innerHTML += createOptionItemTemplate(keys);
+    selectContainer.addEventListener('change', async () => {
+      const val = document.getElementById('selectLocation').value;
+      window.location.href = val;
+    });
+
+    // for (let i = 0; i < keys.length; i++) {
+    //   const opt = keys[i];
+    //   const el = document.createElement('option');
+    //   el.textContent = opt;
+    //   el.value = opt;
+    //   select.appendChild(el);
+    // }
+
+    // OPTION SECTION
 
     keys.forEach((key) => {
       arrBudaya.push(...dataBudaya[key]);
