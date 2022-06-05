@@ -1,0 +1,67 @@
+.card {
+  background-color: green;
+  width: 80%;
+
+  margin: auto;
+  margin: 16px 0;
+  box-shadow: 0 4px 8px 0 #00000033;
+  margin-top: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.wisata-link {
+  background-color: purple;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height: 20em;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.img-wisata {
+  background-color: red;
+  width: 50%;
+}
+
+.img-wisata img {
+  padding: 30px;
+  width: 50%;
+}
+
+.wisata-image {
+  padding: 20px;
+  max-width: 20%;
+  background-color: pink;
+}
+
+.wisata-desc {
+  margin-left: 20px;
+  background-color: blue;
+  color: black;
+  width: 50%;
+  padding: 1.4em 2em;
+  font-size: small;
+  text-align: left;
+}
+
+.card-content-title {
+  width: 50%;
+  background-color: aqua;
+  font-weight: bold;
+  /* padding-bottom: 0.376em; */
+  font-size: 18px;
+  transition: 0.3s opacity;
+}
+
+.card-content-title:hover {
+  opacity: 0.5;
+}
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: right;
+  background-color: red;
+}
