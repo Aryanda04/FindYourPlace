@@ -1,5 +1,6 @@
-import data from "../../data/UMKM.json";
-import { createUmkmItemTemplate } from "../template/umkm-template";
+import data from '../../data/UMKM.json';
+import { createUmkmItemTemplate } from '../template/umkm-template';
+
 const UMKM = {
   async render() {
     return `
@@ -13,8 +14,8 @@ const UMKM = {
     console.log(data);
     const umkmBanten = [];
     const umkmNias = [];
-    const umkmBelitung =[];
-    const umkmItem=[];
+    const umkmBelitung = [];
+    const umkmItem = [];
     const keys1 = Object.keys(dataBanten);
     const keys2 = Object.keys(dataNias);
     const keys3 = Object.keys(dataBelitung);
@@ -26,7 +27,7 @@ const UMKM = {
     });
     console.log(contUmkm);
 
-    const listContainer = document.querySelector("#explore-umkm");
+    const listContainer = document.querySelector('#explore-umkm');
 
     contUmkm.forEach((umkmbanten) => {
       listContainer.innerHTML += createUmkmItemTemplate(umkmbanten);
