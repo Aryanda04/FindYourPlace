@@ -1,0 +1,20 @@
+{
+    "Belitung": [
+        {
+            "name": "Visit Belitong",
+            "link": "https://www.visitbelitungtour.com/",
+            "picture": "https://i.ibb.co/phLFgqr/visit-belitung.png"
+        },
+        {
+            "name": "Belitung Tours",
+            "link": "https://www.belitungtours.com/",
+            "picture": "https://i.ibb.co/6WV3cTw/belitung-tours.png"
+        }
+    ],
+    "Nias": [
+        {}
+    ],
+    "Banten": [
+        {}
+    ]
+}

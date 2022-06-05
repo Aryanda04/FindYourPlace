@@ -93,7 +93,53 @@ const createBudayaDetailTemplate = (data) => `
 </div>
 <div class="filler"></div>
 `;
+const createHeaderLocation = (data) => `
+    <h1> Whats on ${data.id}</h1>
+`;
+const createWisataDetailCardTemplate = (data) => `
+        <div class="wisata-location-card">
+        <a href="#/detail-wisata/${data.id}">
+            <img src="${data.picture}"/>
+            <div class="wisata-location-card-content">
+            <h2>${data.name}</h2>
+            <h4>Distance : ${data.distance} km</h4>
+            </div>
+            </a>
+        </div>
+`;
+const createUMKMDetailCardTemplate = (data) => `
+        <div class ="umkm-location-card">
+            <a href="#/detail-umkm/${data.id}">
+                <img src="${data.picture}" alt="${data.name} picture"/>
+                <div class="card-content">
+                    <h2>${data.name}</h2>  
+                </div>
+            </a>
+        </div>
+
+`;
+const createBudayaDetailCardTemplate = (data) => `
+        <div class ="budaya-location-card">
+            <a href="#/detail-budaya/${data.id}">
+                <img src="${data.picture}" alt="${data.name} picture"/>
+                <div class="card-content">
+                    <h2>${data.name}</h2>  
+                </div>
+            </a>
+        </div>
+`;
+const createTravelCardTemplate = (data) => `
+<div class="travel-card">
+<img tabindex="0" src="${data.picture}" class="lazyload umkm-card-image" alt="${data.name}"/>
+<div class="travel-card__content">
+  <h2>${data.name}</h2>
+  <a href="${data.link}" target="_blank">Visit Website</a>
+</div>
+</div>
+<br>
+`;
 
 export {
-  createWisataDetailTemplate, createOtherWisataPicturesTemplate, createUMKMDetailTemplate, createBudayaDetailTemplate,
+  createWisataDetailTemplate, createOtherWisataPicturesTemplate, createUMKMDetailTemplate, createBudayaDetailTemplate, createWisataDetailCardTemplate, createHeaderLocation, createUMKMDetailCardTemplate, createBudayaDetailCardTemplate, createTravelCardTemplate,
+
 };

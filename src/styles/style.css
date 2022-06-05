@@ -25,3 +25,8 @@ body {
     padding: 8px;
     z-index: 100;
 }
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
