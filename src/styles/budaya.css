@@ -1,54 +1,71 @@
-.card {
-    margin: 16px 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.card-budaya {
+    
     width: 100%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 #00000033;
+    margin-top: 10px;
     border-radius: 5px;
     overflow: hidden;
-}
-
-.budaya-link{
-    text-decoration: none;
-}
-
-.img-budaya {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    max-height: 600px;
-}
-
-.budaya-desc{
+  }
+  
+  .budaya-link {
+    
+    box-shadow: 1px -1px 8px 13px rgba(176,99,20,0.09);
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    height: 20em;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  .img-budaya {
+    background-color: #fff;
+    width: 50%;
+  }
+  
+  .img-budaya img {
+    padding: 30px;
+    width: 375px;
+  }
+  
+  .budaya-image {
+    padding: 20px;
+    max-width: 20%;
+    background-color: pink;
+  }
+  
+  .budaya-desc {
+    margin-left: 20px;
+    background-color: white;
     color: black;
+    width: 50%;
     padding: 1.4em 2em;
     font-size: small;
     text-align: left;
-}
-
-.card-image {
-    width: 100%;
-    height: 270px;
-    object-fit: cover;
-    object-position: center;
-}
-
-.card-content-title {
+  }
+  
+  .card-content-title-budaya {
+    width: 50%;
+    text-align: center;
     font-weight: bold;
     /* padding-bottom: 0.376em; */
     font-size: 18px;
     transition: 0.3s opacity;
-}
-
-.card-content-title:hover {
+  }
+  
+  .card-content-title:hover {
     opacity: 0.5;
-
-}
-.truncate {
+  }
+  
+  .truncate-budaya {
+    text-indent: 50px;
+    text-align: justify;
+    margin-top: 10px;
+    width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin-top: 4px;
-    font-size: 14px;
-    line-height: 1.5em;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-}
+    
+  }
+  

@@ -49,7 +49,8 @@ class CustomFooter extends HTMLElement {
 
     </div>
      <p class="footer-bottom-text">Copyright <i class="far fa-copyright"></i>2022 | Find Your Place.</p>
-  </div>
+  
+  </footer>
 
       `;
   }
