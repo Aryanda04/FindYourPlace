@@ -6,6 +6,7 @@
   margin-top: 10px;
   border-radius: 5px;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 
 .wisata-link {
@@ -40,6 +41,7 @@
   background-color: blue;
   color: black;
   width: 50%;
+  overflow: scroll;
   padding: 1.4em 2em;
   font-size: small;
   text-align: left;
@@ -59,6 +61,7 @@
 }
 
 .truncate-wisata {
+  line-height: 20px;
   text-indent: 50px;
   text-align: justify;
   margin-top: 10px;
