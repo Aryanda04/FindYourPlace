@@ -1,0 +1,49 @@
+h2 {
+    text-align: center;
+}
+
+#explore-umkm {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 32px;
+    gap: 50px;
+
+}
+
+.umkm {
+    margin: 16px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+
+
+
+}
+
+.umkm img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.card-content-umkm {
+    margin-top: 20px;
+}
+
+.umkm-desc {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.desc {
+    text-align: justify;
+    padding: 30px;
+}
+
+/* .img-umkm img {
+    padding: 30px;
+    width: 50%;
+} */

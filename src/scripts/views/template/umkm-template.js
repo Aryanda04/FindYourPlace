@@ -7,9 +7,8 @@ const createUmkmItemTemplate = (conten) => `
         </div>
 
         <div class="umkm-desc" tabindex="0" >
-          <span>${conten.description}</span></p>
-          <h1 class="card-content-title">${conten.name}</h1>
-          <p class="truncate">${conten.description}</p>
+          <h1 class="card-content-umkm">${conten.name}</h1>
+          <p class="desc">${conten.description}</p>
         </div>
       </a>
     </div>
