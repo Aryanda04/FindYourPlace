@@ -1,5 +1,6 @@
 import data from "../../data/UMKM.json";
 import { createBantenItemTemplate, createNiasItemTemplate, createBelitungItemTemplate} from "../template/umkm-template";
+
 const UMKM = {
   async render() {
     return `
@@ -15,8 +16,8 @@ const UMKM = {
     console.log(data);
     const umkmBanten = [];
     const umkmNias = [];
-    const umkmBelitung =[];
-    const umkmItem=[];
+    const umkmBelitung = [];
+    const umkmItem = [];
     const keys1 = Object.keys(dataBanten);
     const keys2 = Object.keys(dataNias);
     const keys3 = Object.keys(dataBelitung);
@@ -37,9 +38,11 @@ const UMKM = {
       umkmItem.push(...dataBelitung[key]);
     });
 
+
     const bantenContainer = document.querySelector("#banten-umkm");
     const niasContainer = document.querySelector("#nias-umkm");
     const belitungContainer = document.querySelector("#belitung-umkm");
+
 
     umkmBanten.forEach((umkm) => {
       bantenContainer.innerHTML += createBantenItemTemplate(umkm);

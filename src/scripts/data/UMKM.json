@@ -1,0 +1,59 @@
+{
+    "Banten": [
+        {
+            "id": "banten-umkm-1",
+            "name": "Kang Ngemil",
+            "description": "Produk UMKM home made yang berlokasi di Serang Banten. Produk kripik yang terbuat dari sukun menyediakan varian rasa original. Manfaat buah mengkonsumsi buah sukun diantaranya mengurangi resiko cedera otot dan sendi, untuk diet karna bebas gluten, mencegah infeksi bakteri, menurunkan resiko diabetes, mendukung kesehatan mata. ",
+            "picture": "https://i.ibb.co/bPH3pLk/kang-ngemil-1.png"
+        },
+        {
+            "id": "banten-umkm-2",
+            "name": "Gula Aren",
+            "description": "Produk UMKM berupa gula yang memiliki bahan dasar jahe merah yang di produksi sendiri tanpa campuran apapun. Produk UMKM berasal dari Banten diolah dengan proses dari nira aren murni langsung menjadi gula, pengeringan melalui oven mesin kadar air 1%, pengayakan melalui oven mesin kadar air 1%, pengayakan melalui mesin mesin ayak mesh 16-18, serta kemasan food frade st puch+zipper lock.",
+            "picture": "https://i.ibb.co/DrJmncX/gula-aren.jpg"
+        },
+        {
+            "id": "banten-umkm-3",
+            "name": "Lebak Sinar Kencana",
+            "description": "Produk lokal buatan UMKM yang berasal dari Banten menyediakan gula semut atau bubuk asli aren 100% organik tanpa campuran bahan yang membahayakan. Gula ini dapa dikonsumsi serta menjadi tambahan untuk pembuatan makanan atau minuman serta bisa dijadikan buah tangan atau oleh-oleh untuk kerabat. Menyediakan 100g dan 250g kemasan untuk dijual.",
+            "picture": "https://i.ibb.co/Yjv8gXB/lebak-sinar-kencana.jpg"
+        }
+    ],
+    "Nias": [
+        {
+            "id": "nias-umkm-1",
+            "name": "Batik & Jewelry Nias",
+            "description": "Produk UMKM berupa batik dan perhiasan dari berbagai kota dan kabupaten di kepulauan Nias.",
+            "picture": "https://i.ibb.co/bPH3pLk/kang-ngemil-1.png"
+        }
+    ],
+    "Belitung": [
+        {
+            "id": "blt-umkm-1",
+            "name": "Purun Eco Straw",
+            "location": "Tanjungpandan, Belitung",
+            "description": "Purun eco straw adalah sedotan alami yang terbuat dari rumput yang dikeringkan tanpa menggunakan bahan kimia sama sekali hanya mengandalkan panas dari sinar matahari",
+            "picture": "https://i.ibb.co/Fw7ngky/purun.jpg",
+            "link": "https://www.instagram.com/purun.ecostraw/",
+            "maps": "https://www.google.com/maps/place/Purun+eco+straw/@-2.7758846,107.6475189,17z/data=!3m1!4b1!4m5!3m4!1s0x2e171728da829f47:0x6ef0805691bcf38e!8m2!3d-2.7758887!4d107.6497048"
+        },
+        {
+            "id": "blt-umkm-2",
+            "name": "Peletek Telur Cumi",
+            "location": "Tanjungpandan, Belitung",
+            "description": "Peletek atau Kricu adalah olahan yang terbuat dari olahan dari telur cumi dan sagu. Produk ini sangat enak, sehat, bersih, dan enak serta sudah terjamin ke halanannya. ",
+            "picture": "https://i.ibb.co/PtcH9Xn/pletek-cumi.jpg",
+            "link": "https://shopee.co.id/Peletek-Telur-Cumi-Mak-Yank-oleh-oleh-khas-Belitung-asli-(kecil-100gr)-i.124588227.8422635485",
+            "maps": "-"
+        },
+        {
+            "id": "blt-umkm-3",
+            "name": "Ketam Isi",
+            "location": "Tanjungpandan, Belitung",
+            "description": "Ketam atau yang biasa disebut kepiting dalam bahasa Indonesia, merupakan salah satu makanan yang enak dan gurih terutama bagi anda yang mencintai makanan laut. Kelemahan dari kepiting adalah kita dibuat repot untuk mengupasnya saat memakannya. Ketam Isi ini merupakan olahan dari daging kepiting sehingga anda dapat menikmati kepiting tanpa perlu repot mengupas. Sekali anda mencoba, tentunya akan meninggalkan kesan bagi anda dan tentunya akan membuat anda ingin mencobanya lagi.",
+            "picture": "https://i.ibb.co/N1sgvgb/ketam.jpg",
+            "link": "https://www.adena.co.id/",
+            "maps": "https://www.google.com/maps/place/Dapur+Adena/@-2.7323709,107.6539283,18.04z/data=!4m5!3m4!1s0x0:0xde58b3d699be2ed4!8m2!3d-2.731921!4d107.6555051?shorturl=1"
+        }
+    ]
+}
