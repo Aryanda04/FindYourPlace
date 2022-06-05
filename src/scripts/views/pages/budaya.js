@@ -1,5 +1,6 @@
 import data from "../../data/Budaya.json";
 import {createBudayaItemTemplate} from "../template/budaya-template"
+
 const Budaya = {
   async render() {
     return `

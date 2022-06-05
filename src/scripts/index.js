@@ -4,6 +4,7 @@ import '../styles/jumbotron.css';
 import '../styles/footer.css';
 import '../styles/home.css';
 import '../styles/umkm.css';
+import '../styles/budaya.css';
 import App from './views/app';
 
 import './views/component/custom-footer';
