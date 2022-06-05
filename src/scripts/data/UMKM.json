@@ -22,9 +22,15 @@
     "Nias": [
         {
             "id": "nias-umkm-1",
-            "name": "Batik & Jewelry Nias",
-            "description": "Produk UMKM berupa batik dan perhiasan dari berbagai kota dan kabupaten di kepulauan Nias.",
-            "picture": "https://i.ibb.co/qWtF880/batik-nias.jpg"
+            "name": "Batik Nias",
+            "description": "Produk UMKM berupa batik dan perhiasan dari berbagai kota dan kabupaten di kepulauan nias.",
+            "picture": "https://i.ibb.co/7NgdWrN/batik-nias.png"
+        },
+        {
+            "id": "nias-umkm-2",
+            "name": "Jewellery Nias",
+            "description": "Poduk UMKM berupa perihasan khas daerah nias.",
+            "picture": "https://i.ibb.co/Rj7kk3Z/jewelry-nias.png"
         }
     ],
     "Belitung": [
