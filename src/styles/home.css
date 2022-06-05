@@ -8,6 +8,34 @@
     margin: 1rem auto;
 }
 
+/* DROPDOWN OPTION */
+
+#selectLocation {
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    display: block;
+    margin: 1rem auto;
+    width: 500px;
+    background-color: antiquewhite;
+    padding: 1rem;
+    border: none;
+    background: antiquewhite;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+#selectLocation:hover {
+    opacity: 0.7;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#selectLocation option {
+    border: none;
+}
+
+
 /* Budaya Card */
 
 .main-scroll-div {
@@ -308,6 +336,7 @@
 
 @media screen and (max-width:1500px) {
 
+
     #umkm-section,
     #wisata-section {
         grid-template-columns: 1fr 1fr 1fr;
@@ -350,6 +379,9 @@
 }
 
 @media screen and (max-width:1000px) {
+    #selectLocation {
+        width: 400px;
+    }
 
     #umkm-section,
     #wisata-section {
@@ -359,6 +391,9 @@
 }
 
 @media screen and (max-width:700px) {
+    #selectLocation {
+        width: 50%;
+    }
 
     #umkm-section,
     #wisata-section {

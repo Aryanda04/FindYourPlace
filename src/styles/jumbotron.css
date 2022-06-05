@@ -46,7 +46,7 @@
 
 #jumbotron .waves {
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     left: 0;
 }
 

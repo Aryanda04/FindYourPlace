@@ -5,41 +5,24 @@ import dataBudaya from '../../data/Budaya.json';
 import dataUMKM from '../../data/UMKM.json';
 import dataWisata from '../../data/Wisata.json';
 import {
-  createBudayaItemTemplate, createUMKMItemTemplate, createOptionItemTemplate, createWisataItemTemplate,
+  createBudayaHomeCardTemplate, createUMKMHomeCardTemplate, createOptionItemTemplate, createWisataHomeCardTemplate, createHomeScrollerTemplate,
 } from '../template/home-template';
 
 const Home = {
   async render() {
     return `
     <custom-jumbotron></custom-jumbotron>
-    <section id="select-container"></section>
-      <h2 class="tagline-home">Recomendation Place</h2>
-      <section id="wisata-section"></section>
 
-      <h2 class="tagline-home">Culture</h2>
-      <div class="main-scroll-div">
-      <div class="top-scroll-icon-container">
-        <div class="scroll-icon-container">
-          <button class="scroll-icon" id="btnl"><i class="fas fa-angle-double-left"></i></button>
-        </div>
-        <div class="scroll-icon-container-right-hidden">
-        <button class="scroll-icon" id="btnr"><i class="fas fa-angle-double-right"></i></button>
-        </div>
-        </div>
-          <div class="cover">
-            <div class="scroll-images" id="budaya-section">
-            </div>
-          </div>
-        <div class="scroll-icon-container-right">
-        <button class="scroll-icon" id="btnr2"><i class="fas fa-angle-double-right"></i></button>
-        </div>
-      </div>
-      <h2 class="tagline-home">UMKM</h2>
+        <section id="select-container"></section>
 
-      <section id="umkm-section"></section>
-
-
-
+        <h2 class="tagline-home">Recomendation Place</h2>
+        <section id="wisata-section"></section>
+      
+        <h2 class="tagline-home">Culture</h2>
+        <section id="scroller-budaya"></section>
+      
+        <h2 class="tagline-home">UMKM</h2>
+        <section id="umkm-section"></section>
     `;
   },
 
@@ -54,6 +37,8 @@ const Home = {
     const keys2 = Object.keys(dataUMKM);
     const keys3 = Object.keys(dataWisata);
     console.log(keys);
+    const scrollerContainer = document.querySelector('#scroller-budaya');
+    scrollerContainer.innerHTML += createHomeScrollerTemplate();
 
     // OPTION SECTION
     const selectContainer = document.querySelector('#select-container');
@@ -62,16 +47,6 @@ const Home = {
       const val = document.getElementById('selectLocation').value;
       window.location.href = val;
     });
-
-    // for (let i = 0; i < keys.length; i++) {
-    //   const opt = keys[i];
-    //   const el = document.createElement('option');
-    //   el.textContent = opt;
-    //   el.value = opt;
-    //   select.appendChild(el);
-    // }
-
-    // OPTION SECTION
 
     keys.forEach((key) => {
       arrBudaya.push(...dataBudaya[key]);
@@ -109,14 +84,14 @@ const Home = {
     });
 
     dynamicarrUMKM.slice(0, 4).forEach((i) => {
-      umkmContainer.innerHTML += createUMKMItemTemplate(i);
+      umkmContainer.innerHTML += createUMKMHomeCardTemplate(i);
     });
 
     arrBudaya.forEach((i) => {
-      budayaContainer.innerHTML += createBudayaItemTemplate(i);
+      budayaContainer.innerHTML += createBudayaHomeCardTemplate(i);
     });
     dynamicarrWisata.slice(0, 4).forEach((i) => {
-      wisataContainer.innerHTML += createWisataItemTemplate(i);
+      wisataContainer.innerHTML += createWisataHomeCardTemplate(i);
     });
   },
 

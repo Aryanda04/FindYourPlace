@@ -1,29 +1,7 @@
 /* eslint-disable max-len */
 /* eslint-disable import/prefer-default-export */
 // template untuk menampilkan resto item
-
-const createBudayaItemTemplate = (data) => `
-<div class="budaya-card">
-    <img tabindex="0" src="${data.picture}" class="lazyload budaya-card-image" alt="${data.name}"/>
-    <div class="budaya-card__content">
-      <h2>${data.name}</h2>
-      <a href="#/detail-budaya/${data.id}">Read More</a>
-    </div>
-  </div>
-    
-  `;
-
-const createUMKMItemTemplate = (data) => `
-<div class="umkm-card">
-<img tabindex="0" src="${data.picture}" class="lazyload umkm-card-image" alt="${data.name}"/>
-<div class="umkm-card__content">
-  <h2>${data.name}</h2>
-  <a href="#/detail-umkm/${data.id}">See Product</a>
-</div>
-</div>
-  `;
-
-const createWisataItemTemplate = (data) => `
+const createWisataHomeCardTemplate = (data) => `
 <div class="wisata-card">
   <a class="wsata-card-a-tag" href="#/detail-wisata/${data.id}">
   <div class="wisata-location">
@@ -41,9 +19,30 @@ const createWisataItemTemplate = (data) => `
 </div>
 `;
 
+const createBudayaHomeCardTemplate = (data) => `
+<div class="budaya-card">
+    <img tabindex="0" src="${data.picture}" class="lazyload budaya-card-image" alt="${data.name}"/>
+    <div class="budaya-card__content">
+      <h2>${data.name}</h2>
+      <a href="#/detail-budaya/${data.id}">Read More</a>
+    </div>
+  </div>
+    
+  `;
+
+const createUMKMHomeCardTemplate = (data) => `
+<div class="umkm-card">
+<img tabindex="0" src="${data.picture}" class="lazyload umkm-card-image" alt="${data.name}"/>
+<div class="umkm-card__content">
+  <h2>${data.name}</h2>
+  <a href="#/detail-umkm/${data.id}">See Product</a>
+</div>
+</div>
+  `;
+
 const createOptionItemTemplate = (data) => `
 <select id="selectLocation">
-<option>Choose a number</option>
+<option>Select Your Destination</option>
   ${data.map(
     (location) => `
     <option value="#/detail/${location}"><b>${location}</b></option>
@@ -51,6 +50,26 @@ const createOptionItemTemplate = (data) => `
   ).join('')}
 </select>
 `;
+
+const createHomeScrollerTemplate = () => `
+<div class="main-scroll-div">
+      <div class="top-scroll-icon-container">
+        <div class="scroll-icon-container">
+          <button class="scroll-icon" id="btnl"><i class="fas fa-angle-double-left"></i></button>
+        </div>
+        <div class="scroll-icon-container-right-hidden">
+        <button class="scroll-icon" id="btnr"><i class="fas fa-angle-double-right"></i></button>
+        </div>
+        </div>
+          <div class="cover">
+            <div class="scroll-images" id="budaya-section">
+            </div>
+          </div>
+        <div class="scroll-icon-container-right">
+        <button class="scroll-icon" id="btnr2"><i class="fas fa-angle-double-right"></i></button>
+        </div>
+      </div>
+`;
 export {
-  createBudayaItemTemplate, createUMKMItemTemplate, createWisataItemTemplate, createOptionItemTemplate,
+  createBudayaHomeCardTemplate, createUMKMHomeCardTemplate, createWisataHomeCardTemplate, createOptionItemTemplate, createHomeScrollerTemplate,
 };
