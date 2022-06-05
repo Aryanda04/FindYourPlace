@@ -26,5 +26,13 @@
             "description": "Produk UMKM berupa batik dan perhiasan dari berbagai kota dan kabupaten di kepulauan Nias.",
             "picture": "https://i.ibb.co/bPH3pLk/kang-ngemil-1.png"
         }
+    ],
+    "Belitung": [
+        {
+            "id": "nias-umkm-1",
+            "name": "Batik & Jewelry Nias",
+            "description": "Produk UMKM berupa batik dan perhiasan dari berbagai kota dan kabupaten di kepulauan Nias.",
+            "picture": "https://i.ibb.co/bPH3pLk/kang-ngemil-1.png"
+        }
     ]
 }

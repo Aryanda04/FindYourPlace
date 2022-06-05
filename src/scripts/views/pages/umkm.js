@@ -1,10 +1,12 @@
 import data from "../../data/UMKM.json";
-import { createUmkmItemTemplate } from "../template/umkm-template";
+import { createBantenItemTemplate, createNiasItemTemplate, createBelitungItemTemplate} from "../template/umkm-template";
 const UMKM = {
   async render() {
     return `
         <h2>UMKM EXPLORE</h2>
-        <section id="explore-umkm"></section>
+        <section id="banten-umkm"></section>
+        <section id="nias-umkm"></section>
+        <section id="belitung-umkm"></section>
 
       `;
   },
@@ -19,17 +21,34 @@ const UMKM = {
     const keys2 = Object.keys(dataNias);
     const keys3 = Object.keys(dataBelitung);
 
-    keys.forEach((key) => {
+    keys1.forEach((key) => {
       // console.log(key);
       umkmBanten.push(...dataBanten[key]);
-      console.log(data[key]);
+      umkmItem.push(...dataBanten[key]);
     });
-    console.log(contUmkm);
+    keys2.forEach((key) => {
+      // console.log(key);
+      umkmNias.push(...dataNias[key]);
+      umkmItem.push(...dataNias[key]);
+    });
+    keys3.forEach((key) => {
+      // console.log(key);
+      umkmBelitung.push(...dataBelitung[key]);
+      umkmItem.push(...dataBelitung[key]);
+    });
 
-    const listContainer = document.querySelector("#explore-umkm");
+    const bantenContainer = document.querySelector("#banten-umkm");
+    const niasContainer = document.querySelector("#nias-umkm");
+    const belitungContainer = document.querySelector("#belitung-umkm");
 
-    contUmkm.forEach((umkmbanten) => {
-      listContainer.innerHTML += createUmkmItemTemplate(umkmbanten);
+    umkmBanten.forEach((umkm) => {
+      bantenContainer.innerHTML += createBantenItemTemplate(umkm);
+    });
+    umkmNias.forEach((umkm) => {
+      niasContainer.innerHTML += createNiasItemTemplate(umkm);
+    });
+    umkmBelitung.forEach((umkm) => {
+      belitungContainer.innerHTML += createBelitungItemTemplate(umkm);
     });
   },
 };
