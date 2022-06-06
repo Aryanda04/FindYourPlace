@@ -1,24 +1,29 @@
 {
-    "Belitung": [
-        {
-            "name": "Visit Belitong",
-            "link": "https://www.visitbelitungtour.com/",
-            "picture": "https://i.ibb.co/phLFgqr/visit-belitung.png"
-        },
-        {
-            "name": "Belitung Tours",
-            "link": "https://www.belitungtours.com/",
-            "picture": "https://i.ibb.co/6WV3cTw/belitung-tours.png"
-        }
-    ],
-    "Nias": [
-        {
-            "name": "Go Nias Tours",
-            "link": "https://www.goniastour.com/",
-            "picture": "https://i.ibb.co/rvJCXcJ/goniastours.jpg"
-        }
-    ],
-    "Banten": [
-        {}
-    ]
+  "Belitung": [
+    {
+      "name": "Visit Belitong",
+      "link": "https://www.visitbelitungtour.com/",
+      "picture": "https://i.ibb.co/phLFgqr/visit-belitung.png"
+    },
+    {
+      "name": "Belitung Tours",
+      "link": "https://www.belitungtours.com/",
+      "picture": "https://i.ibb.co/6WV3cTw/belitung-tours.png"
+    }
+  ],
+  "Nias": [
+    {
+      "name": "Go Nias Tours",
+      "link": "https://www.goniastour.com/",
+      "picture": "https://i.ibb.co/rvJCXcJ/goniastours.jpg"
+    }
+  ],
+  "Banten": [
+    {
+      "name": "Banten Tour Travel",
+      "link": "https://www.bantentourtravel.com/",
+      "picture": "https://i.ibb.co/1n1wYQr/87-banten-tour-travel.jpg"
+    },
+    {}
+  ]
 }
