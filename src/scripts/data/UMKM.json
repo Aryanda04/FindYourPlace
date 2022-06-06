@@ -2,21 +2,30 @@
     "Banten": [
         {
             "id": "banten-umkm-1",
+            "location": "Kabupaten Serang-Padarincang, Banten",
             "name": "Kang Ngemil",
             "description": "Produk UMKM home made yang berlokasi di Serang Banten. Produk kripik yang terbuat dari sukun menyediakan varian rasa original. Manfaat buah mengkonsumsi buah sukun diantaranya mengurangi resiko cedera otot dan sendi, untuk diet karna bebas gluten, mencegah infeksi bakteri, menurunkan resiko diabetes, mendukung kesehatan mata. ",
-            "picture": "https://i.ibb.co/bPH3pLk/kang-ngemil-1.png"
+            "picture": "https://i.ibb.co/bPH3pLk/kang-ngemil-1.png",
+            "link": "https://instagram.com/kangngemil_id?igshid=YmMyMTA2M2Y=",
+            "maps": "-"
         },
         {
             "id": "banten-umkm-2",
+            "location": "Jurang Mangu Timur, Tangerang Selatan",
             "name": "Gula Aren",
             "description": "Produk UMKM berupa gula yang memiliki bahan dasar jahe merah yang di produksi sendiri tanpa campuran apapun. Produk UMKM berasal dari Banten diolah dengan proses dari nira aren murni langsung menjadi gula, pengeringan melalui oven mesin kadar air 1%, pengayakan melalui oven mesin kadar air 1%, pengayakan melalui mesin mesin ayak mesh 16-18, serta kemasan food frade st puch+zipper lock.",
-            "picture": "https://i.ibb.co/DrJmncX/gula-aren.jpg"
+            "picture": "https://i.ibb.co/DrJmncX/gula-aren.jpg",
+            "link": "https://instagram.com/gulaarenpondokaren?igshid=YmMyMTA2M2Y=",
+            "maps": "https://maps.app.goo.gl/pcq12krrmtvkFpWRA"
         },
         {
             "id": "banten-umkm-3",
+            "location": "Jakarta Selatan",
             "name": "Lebak Sinar Kencana",
             "description": "Produk lokal buatan UMKM yang berasal dari Banten menyediakan gula semut atau bubuk asli aren 100% organik tanpa campuran bahan yang membahayakan. Gula ini dapa dikonsumsi serta menjadi tambahan untuk pembuatan makanan atau minuman serta bisa dijadikan buah tangan atau oleh-oleh untuk kerabat. Menyediakan 100g dan 250g kemasan untuk dijual.",
-            "picture": "https://i.ibb.co/Yjv8gXB/lebak-sinar-kencana.jpg"
+            "picture": "https://i.ibb.co/Yjv8gXB/lebak-sinar-kencana.jpg",
+            "link": "https://www.tokopedia.com/lebaksinarkencana",
+            "maps": "-"
         }
     ],
     "Nias": [
@@ -27,7 +36,7 @@
             "description": "Produk UMKM berupa batik dari berbagai kota dan kabupaten di kepulauan nias.",
             "picture": "https://i.ibb.co/7NgdWrN/batik-nias.png",
             "link": "https://www.instagram.com/sararaholi.jaya/",
-            "maps": ""
+            "maps": "-"
         },
         {
             "id": "nias-umkm-2",
@@ -36,9 +45,8 @@
             "description": "Poduk UMKM berupa perhiasan khas daerah nias.",
             "picture": "https://i.ibb.co/Rj7kk3Z/jewelry-nias.png",
             "link": "https://www.instagram.com/sararaholijaya.jewellery/",
-            "maps": ""
+            "maps": "-"
         },
-
         {
             "id": "blt-umkm-1",
             "name": "Durian",
