@@ -14,7 +14,7 @@ a {
 }
 
 .wisata-link {
-  margin: auto;
+  margin-left: 30px;
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -25,18 +25,17 @@ a {
 .img-wisata {
   display: block;
   margin: auto;
-  box-shadow: 4px -1px 14px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 50px;
+  /* box-shadow: 4px -1px 14px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 4px -1px 14px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 4px -1px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px -1px 14px 0px rgba(0, 0, 0, 0.75); */
 }
 
 .img-wisata img {
-  padding: 30px;
   width: 300px;
 }
 
 .wisata-image {
-  margin-top: 30px;
   max-width: 20%;
 }
 
