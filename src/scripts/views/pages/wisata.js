@@ -4,7 +4,6 @@ import { createWisataItemTemplate } from "../template/wisata-template";
 const Wisata = {
   async render() {
     return `
-    <custom-jumbotron></custom-jumbotron>
         <h2>Tempat wisata  page</h2>
         <section id="explore-wisata"></section>
 

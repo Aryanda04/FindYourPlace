@@ -18,13 +18,11 @@ a {
   width: 80%;
   display: flex;
   flex-direction: row;
-  padding: 10px;
   height: 20em;
   border-radius: 10px 10px 10px 10px;
 }
 
 .img-wisata {
-  width: 50%;
   display: block;
   margin: auto;
   box-shadow: 4px -1px 14px 0px rgba(0, 0, 0, 0.75);
@@ -34,11 +32,11 @@ a {
 
 .img-wisata img {
   padding: 30px;
-  width: 375px;
+  width: 300px;
 }
 
 .wisata-image {
-  padding: 20px;
+  margin-top: 30px;
   max-width: 20%;
 }
 
@@ -75,4 +73,68 @@ a {
   text-align: justify;
   margin-top: 10px;
   width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .card-wisata {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img-wisata img {
+    width: 50%;
+    padding: 2px;
+  }
+
+  .img-wisata {
+    margin: 0 auto;
+    width: 290px;
+  }
+
+  .wisata-link {
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wisata-image {
+    width: 50%;
+  }
+
+  .wisata-desc {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .card-wisata {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img-wisata img {
+    width: 289px;
+  }
+
+  .img-wisata {
+    margin: 0 auto;
+    width: 299px;
+  }
+
+  .wisata-link {
+    padding: 20px;
+    margin-right: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wisata-desc {
+    margin-top: 20px;
+  }
 }
