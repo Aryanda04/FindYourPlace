@@ -23,14 +23,30 @@
         {
             "id": "nias-umkm-1",
             "name": "Batik Nias",
-            "description": "Produk UMKM berupa batik dan perhiasan dari berbagai kota dan kabupaten di kepulauan nias.",
-            "picture": "https://i.ibb.co/7NgdWrN/batik-nias.png"
+            "location": "Jl. Sirao No14, Kota gunungsitoli, Nias",
+            "description": "Produk UMKM berupa batik dari berbagai kota dan kabupaten di kepulauan nias.",
+            "picture": "https://i.ibb.co/7NgdWrN/batik-nias.png",
+            "link": "https://www.instagram.com/sararaholi.jaya/",
+            "maps": ""
         },
         {
             "id": "nias-umkm-2",
             "name": "Jewellery Nias",
-            "description": "Poduk UMKM berupa perihasan khas daerah nias.",
-            "picture": "https://i.ibb.co/Rj7kk3Z/jewelry-nias.png"
+            "location": "Jl. Sirao No14, Kota gunungsitoli, Nias",
+            "description": "Poduk UMKM berupa perhiasan khas daerah nias.",
+            "picture": "https://i.ibb.co/Rj7kk3Z/jewelry-nias.png",
+            "link": "https://www.instagram.com/sararaholijaya.jewellery/",
+            "maps": ""
+        },
+
+        {
+            "id": "blt-umkm-1",
+            "name": "Durian",
+            "location": "Kota gunungsitoli, Nias",
+            "description": "Durian Nias adalah sebuah kekhasan jenis buah-buahan yang dianugerahkan oleh Tuhan di Pulau ini. Durian Nias bukanlah durian yang sengaja dibudidayakan melainkan memang telah tumbuh dengan sendirinya, menyebar di tanah-tanah hutan Nias, dari utara ke selatan, dari barat hingga ke timur. Untuk rasanya jangan diragukan. Bila anda memang penggemar buah durian, maka durian Nias dapat dikatakan akan berada pada urutan teratas durian yang akan anda cicipi sekali dalam hidup anda.",
+            "picture": "https://i.ibb.co/Ny026J6/Tugu-Durian.jpg",
+            "link": "https://www.tokopedia.com/find/durian/c/gunungsitoli",
+            "maps": "https://www.google.com/maps/place/Tugu+Durian/@1.2899631,97.6197233,17z/data=!3m1!4b1!4m5!3m4!1s0x3025fbda9b4857a5:0x908dd43e486b2915!8m2!3d1.2899631!4d97.6197233"
         }
     ],
     "Belitung": [

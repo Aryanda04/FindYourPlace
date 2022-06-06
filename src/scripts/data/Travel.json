@@ -12,7 +12,11 @@
         }
     ],
     "Nias": [
-        {}
+        {
+            "name": "Go Nias Tours",
+            "link": "https://www.goniastour.com/",
+            "picture": "https://i.ibb.co/rvJCXcJ/goniastours.jpg"
+        }
     ],
     "Banten": [
         {}
