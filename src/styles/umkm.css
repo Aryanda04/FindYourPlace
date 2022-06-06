@@ -1,9 +1,11 @@
 h2 {
+    margin-top: 20px;
     text-align: center;
 }
 
 #explore-umkm {
     display: grid;
+    grid-template-columns: 1fr;
     margin: 50px;
     gap: 50px;
 
@@ -14,9 +16,10 @@ h2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     text-align: center;
+}
 
-
-
+.umkm:hover {
+    transform: scale(1.05);
 }
 
 .umkm img {
@@ -31,6 +34,7 @@ h2 {
 
 .umkm-desc {
     text-decoration: none;
+    color: black;
 }
 
 a {
@@ -46,21 +50,26 @@ a {
     padding: 30px;
     width: 50%;
 } */
+/* @media screen and (min-width: 650px) {
+    #explore-umkm {
+        grid-template-columns: 1fr 1fr;
+    }
+} */
 @media screen and (min-width: 650px) {
     #explore-umkm {
-        grid-template-columns: auto 1fr;
+        grid-template-columns: repeat(2, 1fr)
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
     #explore-umkm {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr)
     }
 }
 
 @media screen and (min-width: 1600px) {
     #explore-umkm {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
 }
