@@ -6,10 +6,20 @@
       "name": "Pulau Lebong",
       "distance": "33.1",
       "maps": "https://www.google.com/maps/place/Leebong+Island+Resort/@-2.9613387,107.5318078,17z/data=!3m1!4b1!4m8!3m7!1s0x2e16e27b0abb21d3:0xc3840fdc06ad1c08!5m2!4m1!1i2!8m2!3d-2.9613387!4d107.5339965",
-      "facility": ["Mosque", "Toilet", "Restaurant", "Outbond"],
+      "facility": [
+        "Mosque",
+        "Toilet",
+        "Restaurant",
+        "Outbond"
+      ],
       "description": "Bagi wisatawan yang ingin merasakan pengalaman berwisata di pulau privat layaknya Maldives, Leebong Island atau Pulau Leebong ini adalah destinasi yang tepat untukmu! Kawasan yang memiliki hamparan pantai indah ini dikelola oleh pihak swasta dan menjadi salah satu primadona wisata laut di Belitung.  Berbagai pengalaman seru bisa Anda nikmati. Anda bisa menikmati indahnya pantai yang tidak terlalu ramai, menjelajahi lautan dengan boat, hingga yang menjadi favorit utama wisatawan adalah menikmati pemandangan hutan mangrove yang terletak di pinggir pantai dan berteduh di rumah pohon. Semua bisa Anda dapatkan di sini.",
       "picture": "https://i.ibb.co/pQcTTNg/pulau-lebong.jpg",
-      "pictures_url": ["https://i.ibb.co/DfhhXwz/pulau-lebong-1.jpg", "https://i.ibb.co/cyb2jMz/pulau-lebong-2.jpg", "https://i.ibb.co/FKp3j2Q/pulau-lebong-3.png", "https://i.ibb.co/zJDyB64/pulau-lebong-4.jpg"],
+      "pictures_url": [
+        "https://i.ibb.co/DfhhXwz/pulau-lebong-1.jpg",
+        "https://i.ibb.co/cyb2jMz/pulau-lebong-2.jpg",
+        "https://i.ibb.co/FKp3j2Q/pulau-lebong-3.png",
+        "https://i.ibb.co/zJDyB64/pulau-lebong-4.jpg"
+      ],
       "pictures_source": []
     },
     {
@@ -18,10 +28,17 @@
       "name": "Danau Kaolin",
       "distance": "6",
       "maps": "https://www.google.com/maps/place/Danau+Kaolin+Belitung/@-2.736802,107.6796667,17z/data=!3m1!4b1!4m5!3m4!1s0x2e173df206524849:0x542448144f40cf88!8m2!3d-2.736802!4d107.6818554",
-      "facility": ["Toilet"],
+      "facility": [
+        "Toilet"
+      ],
       "description": "Wisata laut tidak hanya melulu pantai. Anda juga bisa mencoba untuk berkunjung ke danau, wilayah perairan yang terlihat bagaikan miniatur dari lautan.  Salah satu destinasi danau yang sangat terkenal di Belitung adalah Danau Kaolin, yang menawarkan panorama hamparan pasir putih dengan air danau sangat bening. Persis seperti Maldives dengan spot yang Instagramable! Uniknya,Danau Kaolin ini merupakan destinasi wisata yang dulunya merupakan bekas penambangan mineral berupa Kaolin. Kubangan besar bekas tambang tersebut kemudian berubah menjadi hamparan danau yang luar biasa indah, bisa disaksikan hingga kini. ",
       "picture": "https://i.ibb.co/3zGPxJH/wisatadanaukolin-1280x720.jpg",
-      "pictures_url": ["https://i.ibb.co/ZBhqR8M/danau-kaolin-1.jpg", "https://i.ibb.co/5KbfJs4/danau-kaolin-2.jpg", "https://i.ibb.co/CszXN6h/danau-kaolin-3.jpg", "https://i.ibb.co/2YxY4jC/danau-kaolin-4.jpg"],
+      "pictures_url": [
+        "https://i.ibb.co/ZBhqR8M/danau-kaolin-1.jpg",
+        "https://i.ibb.co/5KbfJs4/danau-kaolin-2.jpg",
+        "https://i.ibb.co/CszXN6h/danau-kaolin-3.jpg",
+        "https://i.ibb.co/2YxY4jC/danau-kaolin-4.jpg"
+      ],
       "pictures_source": []
     },
     {
@@ -30,10 +47,20 @@
       "name": "Pantai Tanjung Kelayang",
       "distance": "25.5",
       "maps": "https://www.google.com/maps?channel=crow5&client=firefox-b-d&q=tanjung+kelayang&um=1&ie=UTF-8&sa=X&ved=2ahUKEwi03vCN25P4AhXLRmwGHb3ECKIQ_AUoAXoECAIQAw",
-      "facility": ["Mosque", "Toilet", "Restaurant", "Outbond"],
+      "facility": [
+        "Mosque",
+        "Toilet",
+        "Restaurant",
+        "Outbond"
+      ],
       "description": "Salah satu destinasi wisata laut berbentuk pantai. Karena keindahannya, menjadikan Pulau Belitung dijuluki sebagai Maldives Indonesia.  Pantai yang berlokasi di Kecamatan Sijuk, Kabupaten Belitung ini dikenal dengan salah satu batu granit raksasa yang berbentuk lambang negara Indonesia yaitu Burung Garuda, serta hamparan pasir putih yang memesona dan eksotis.  Oleh karena keindahan serta luasnya area pantai tersebut, Pantai Tanjung Kelayang dijuluki sebagai ‘Sepotong Surga di Kepulauan Belitung’ dan telah ditetapkan sebagai Kawasan Ekonomi Khusus (KEK) oleh Pemerintah Indonesia. ",
       "picture": "https://i.ibb.co/BgfQfZ1/pantai-tanjung-kelayang.jpg",
-      "pictures_url": ["https://i.ibb.co/W3SKJbS/tanjung-kelayang-cheppy-ceper.jpg", "https://i.ibb.co/rfbgWHG/tanjung-kelayang-2.jpg", "https://i.ibb.co/Cw4w5wS/tanjungkelayang-3.jpg", "https://i.ibb.co/K54X6Xm/tanjungkelayang-4.jpg"],
+      "pictures_url": [
+        "https://i.ibb.co/W3SKJbS/tanjung-kelayang-cheppy-ceper.jpg",
+        "https://i.ibb.co/rfbgWHG/tanjung-kelayang-2.jpg",
+        "https://i.ibb.co/Cw4w5wS/tanjungkelayang-3.jpg",
+        "https://i.ibb.co/K54X6Xm/tanjungkelayang-4.jpg"
+      ],
       "pictures_source": [
         "https://www.instagram.com/p/CeLOC-qvQSL/?utm_source=ig_web_copy_link",
         "https://www.instagram.com/p/CeLUM3jPWuP/?utm_source=ig_web_copy_link",
@@ -65,21 +92,42 @@
   "Banten": [
     {
       "id": "banten-wisata-1",
+      "location": "Pulau Umang, Banten",
       "name": "Pulau Umang",
+      "distance": "98.7",
+      "maps": "https://www.google.com/maps/place/Umang+Island/@-6.6430073,105.5805622,18z/data=!4m5!3m4!1s0x2e43ba90b32dbfb5:0xc35513916c5ad26f!8m2!3d-6.6427058!4d105.5815129",
+      "facility": [
+        "hostel",
+        "Swimming Pool",
+        "Restaurant",
+        "Outbond"
+      ],
       "description": "Salah satu tempat wisata yang berada di Banten. Pulau umang merupakan sebuah pulau dengan luas sekitar 5 hektar yang terletak di kawasan objek wisata pantai Pandelglang yang berdekatan dengan kawasan wisata Tanjung Lesung. Rute yang dilalui menu ke Pulau umang dari Jakarta, gunakan tol Jakarta, Merak, lalu keluar pintu Serang Timur (KM 71), kemudian lanjut ke jalan Pandeglang, Labuan, Taragong atau bisa melewaji jalur alternatif dengan mengakses Tol Jakarta menuju Merak, lalu keluar di pintu Cilegon Barat, ikuti rute Anyer-Carita, ke Labuan, Tarogong, Citereup, Cigeulis, Cibalung, Cimanggu, dan Kecamatan Sumur. Selanjutnya pergi ke pinggir Pantai Sumur untuk mendapatkan tiket penyebrangan, sewa speed boad untuk menyeberang dari Pantai Sumur menuju Pulau Umang.Fasilitas yang disediakan diantaranya kolang renang, karauke, sara olahraga, ruang pertemuan permainan air seperti snorkeling, memancing, berenang, bermain jet ski atau banana boat.  ",
-      "picture": "https://i.ibb.co/vm9fyV4/bawomataluo.jpg"
+      "picture": "https://i.ibb.co/vm9fyV4/bawomataluo.jpg",
+      "pictures_url": [],
+      "pictures_source": []
     },
     {
       "id": "banten-wisata-2",
+      "location": "Ujung Barat Pulau Jawa",
       "name": "Taman Nasional Ujung Kulon",
+      "distance": "",
+      "maps": "https://www.google.com/maps/place/Ujung+Kulon+National+Park/@-6.7846944,105.3751088,17z/data=!3m1!4b1!4m5!3m4!1s0x2e42233395979ea1:0x8df3a34e43b4c872!8m2!3d-6.7846944!4d105.3751088",
       "description": "Taman Nasional Ujung Kulon terletak di ujung barat Pulau Jawa merupakan tempat wisata sebagai tempat perlindungan badak. Tempat yang bisa dikunjungi diantaranya Pulau Peucang Pulau di seberang barat pulau utama Jawa ini mempunyai karakteristik pantai berpasir putih yang lapang serta perairan yang jernih dan tenang. Di pulau ini menyediakan penginapan bagi pengunjung. Kegiatan yang bisa dilakukan di Pulau Peucang antara lain trekking ke Karang Copong untuk menyaksikan matahari terbenam, berenang dan snorkeling di perairan dangkal hingga menyelam ke taman bawah laut yang indah.Pulau HandeleumTerletak di antara gugusan pulau-pulau kecil yang berada di ujung timur laut pantai Semenanjung Ujung Kulon. Pulau Handeleum merupakan satu tempat untuk traverler yang hobi petualangan. Kegiatan yang ada di pulau ini menyediakan wisata adventure.",
-      "picture": "https://i.ibb.co/nB2GVM0/pantai-gawu-soyo.jpg"
+      "picture": "https://i.ibb.co/nB2GVM0/pantai-gawu-soyo.jpg",
+      "pictures_url": [],
+      "pictures_source": []
     },
     {
       "id": "banten-wisata-3",
+      "location": "desa Cibeo Kabupaten Lebak",
       "name": "Kampung Baduy",
+      "distance": "",
+      "maps": "https://www.google.com/maps/place/Wisata+Kampung+Marengo+Baduy+Luar/@-6.6078819,106.1565314,13z/data=!4m9!1m2!2m1!1skampung+baduy!3m5!1s0x2e42691f0ca8c471:0xc7dce717ca9ffcd1!8m2!3d-6.6078819!4d106.2224494!15sCg1rYW1wdW5nIGJhZHV5Wg8iDWthbXB1bmcgYmFkdXmSARJ0b3VyaXN0X2F0dHJhY3Rpb24",
       "description": "merupakan bagian dari wisata alam Banten yang tidak hanya menyuguhkan eksotisme lingkungan dan hewan, namun interaksi dengan penduduknya yang inspiratif. Lokasinya yang terletak di Desa Lebak, Banten ini merupakan kampung asli suku Baduy, yang masih sangat menjaga wasiat dan budaya turun temurun dari nenek moyang mereka.",
-      "picture": "https://i.ibb.co/5RRXV33/pulau-hinako.jpg"
+      "picture": "https://i.ibb.co/5RRXV33/pulau-hinako.jpg",
+      "pictures_url": [],
+      "pictures_source": []
     }
   ]
 }
