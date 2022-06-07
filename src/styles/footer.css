@@ -10,7 +10,7 @@ footer {
 	/* padding: 1rem 0; */
 	width: 100%;
 	background-color: var(--secondary--color);
-	color: black;
+	color: var(--primary--color);
 	text-align: center;
 }
 

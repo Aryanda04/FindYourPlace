@@ -2,11 +2,12 @@
 @import './jumbotron.css';
 @import './detail.css';
 
-:root{
-    --primary--color : #FCF1DB;
-    --secondary--color : #008186;
-    --third--color :#C56D3D;
+:root {
+    --primary--color: #FCF1DB;
+    --secondary--color: #008186;
+    --third--color: #C56D3D;
 }
+
 * {
     padding: 0;
     margin: 0;

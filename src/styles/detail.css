@@ -49,18 +49,19 @@
 
 
 .detail-container .detail-container-right .facility {
-    background-color: antiquewhite;
+    background-color: var(--secondary--color);
     padding: 0.5rem;
+    color: var(--primary--color);
     border-radius: 1rem 0 1rem 0;
 }
 
 .detail-container .detail-container-right a {
-    color: black;
+    color: var(--primary--color);
     text-decoration: none;
     cursor: pointer;
     border-radius: 3px;
     padding: 0.5rem;
-    background-color: antiquewhite;
+    background-color: var(--secondary--color);
     margin: 1rem 1rem;
 }
 
@@ -230,7 +231,8 @@
 
 .umkm-location-card .card-content,
 .budaya-location-card .card-content {
-    padding: 0.5rem 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* BUDAYA */
@@ -252,6 +254,7 @@
 }
 
 .travel-card {
+    background: white;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2);
@@ -276,7 +279,7 @@
     text-align: center;
     margin: .6rem auto;
     font-size: 1.1rem;
-    color: #444;
+    color: var(--primary--color);
     text-decoration: none;
     background-color: #222;
     border-radius: 10px;
