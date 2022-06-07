@@ -60,31 +60,30 @@ a {
   opacity: 0.5;
 }
 
-.truncate-wisata {
-  padding: 20px 30px;
+.description-wisata {
   letter-spacing: 0.2px;
   text-align: justify;
   text-indent: 30px;
+  max-height: 65%;
+  width: 80%;
+  padding: 20px 20px;
 }
-
 @media screen and (max-width: 1000px) {
-  .truncate-wisata {
-    width: 50%;
-  }
 }
 
 @media screen and (max-width: 700px) {
   .card-wisata {
     width: 400px;
-    height: 800px;
-    max-height: 300px;
-    margin: 0;
+    height: auto;
+    margin: 10px 0;
     display: flex;
     flex-direction: row;
   }
 
   .img-wisata img {
+    margin-top: 20px;
     width: 289px;
+    height: 150px;
   }
 
   .img-wisata {
@@ -93,7 +92,8 @@ a {
   }
 
   .wisata-link {
-    padding: 0;
+    padding: 10px;
+    height: auto;
     margin-right: 10px;
     margin: 0 auto;
     display: flex;
@@ -106,7 +106,7 @@ a {
     padding: 0;
   }
 
-  .truncate-wisata {
+  .description-wisata {
     width: 80%;
     margin: 0;
     padding: 0 20px;
@@ -115,5 +115,9 @@ a {
   .explore-wisata {
     width: 100%;
     height: auto;
+  }
+
+  .card-content-title-wisata {
+    margin-top: 30px;
   }
 }

@@ -8,7 +8,7 @@ const createWisataItemTemplate = (content) => `
 
         <div class="wisata-desc" tabindex="0">
           <h1 class="card-content-title-wisata">${content.name}</h1>
-          <p class="truncate-wisata">${content.description}</p>
+          <p class="description-wisata truncate-wisata">${content.description}</p>
         </div>
       <a>
     <div>
