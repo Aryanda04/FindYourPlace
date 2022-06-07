@@ -2,13 +2,14 @@
  * footer
  */
 
+
 footer {
 	position: sticky;
 	left: 0;
 	bottom: 0;
 	/* padding: 1rem 0; */
 	width: 100%;
-	background-color: antiquewhite;
+	background-color: var(--secondary--color);
 	color: black;
 	text-align: center;
 }

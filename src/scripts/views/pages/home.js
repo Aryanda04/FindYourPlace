@@ -17,9 +17,12 @@ const Home = {
 
         <h2 class="tagline-home">Recomendation Place</h2>
         <section id="wisata-section"></section>
-      
+
         <h2 class="tagline-home">Culture</h2>
+
         <section id="scroller-budaya"></section>
+        
+        
       
         <h2 class="tagline-home">UMKM</h2>
         <section id="umkm-section"></section>
@@ -37,7 +40,7 @@ const Home = {
     const keys2 = Object.keys(dataUMKM);
     const keys3 = Object.keys(dataWisata);
     console.log(keys);
-    const scrollerContainer = document.querySelector('#scroller-budaya');
+    const scrollerContainer = document.getElementById('scroller-budaya');
     scrollerContainer.innerHTML += createHomeScrollerTemplate();
 
     // OPTION SECTION

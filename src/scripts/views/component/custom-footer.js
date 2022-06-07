@@ -9,7 +9,7 @@ class CustomFooter extends HTMLElement {
     <footer>
     <div class="top-footer-container">
       <div class="footer-logo">
-        <img src="../../images/logo/FYP.png" alt="FYP Logo"/>
+        <img src="../../images/logo/FYP-yellow.png" alt="FYP Logo"/>
       </div>
       <div class="footer-middle">
         <h3> About Us </h3>

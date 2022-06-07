@@ -6,7 +6,8 @@
 
 .app-bar {
     padding: 8px 16px;
-    background-color: white;
+    color: white;
+    background-color: var(--secondary--color);
     display: grid;
     grid-template-columns: auto 1fr auto;
     gap: 10px;
@@ -50,7 +51,7 @@
     width: 150px;
     transition: all 0.3s;
     padding: 8px;
-    background-color: white;
+    background-color: var(--secondary--color);
     overflow: hidden;
 }
 
@@ -61,14 +62,15 @@
 .app-bar .app-bar__navigation ul li a {
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: var(--primary--color);
     padding: 8px;
     margin-bottom: 5px;
     width: 100%;
 }
+
 nav ul li a:hover {
     font-weight: bold;
-  }
+}
 
 @media screen and (min-width: 800px) {
     .app-bar {

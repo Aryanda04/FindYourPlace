@@ -1,26 +1,30 @@
 /* HOME */
 .tagline-home {
+    color: var(--primary--color);
     padding: 0.5rem;
     width: 93%;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid black;
     box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.2);
-
+    background: var(--secondary--color);
     margin: 1rem auto;
 }
+
+
 
 /* DROPDOWN OPTION */
 
 #selectLocation {
+    color: white;
     border: none;
     cursor: pointer;
     font-size: large;
     display: block;
     margin: 1rem auto;
     width: 500px;
-    background-color: antiquewhite;
+    /* background-color: var(--third--color); */
     padding: 1rem;
     border: none;
-    background: antiquewhite;
+    background: var(--third--color);
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease;
 }
@@ -37,10 +41,25 @@
 
 
 /* Budaya Card */
+#scroller-budaya {
+    background: var(--secondary--color);
+}
+
+.home-mid-bg {
+    display: block;
+    margin: 0 auto;
+    z-index: 0;
+    width: 100%;
+    background: var(--secondary--color);
+
+}
 
 .main-scroll-div {
     margin: 0 auto;
     /* padding-top: 1rem; */
+    /* padding: 0 10%; */
+    /* margin: 0 100px; */
+    background: var(--secondary--color);
     width: 90%;
     height: 100%;
     display: flex;
@@ -132,6 +151,9 @@
     position: relative;
     z-index: 1000;
     transition: all .5s ease-in-out;
+    box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.28);
 }
 
 .budaya-card__content {
@@ -219,7 +241,7 @@
     text-align: center;
     margin: .6rem auto;
     font-size: 1.1rem;
-    color: #444;
+    color: var(--primary--color);
     text-decoration: none;
     background-color: #222;
     border-radius: 10px;

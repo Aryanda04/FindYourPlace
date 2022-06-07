@@ -8,6 +8,9 @@
     position: relative;
     background-size: cover;
 }
+#jumbotron svg{
+    fill: var(--secondary--color);
+}
 
 #jumbotron .jumbotron-container {
     margin: 0 auto;
