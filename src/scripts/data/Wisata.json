@@ -47,28 +47,63 @@
       "id": "nias-wisata-1",
       "name": "Desa Bawomataluo",
       "location": "Bawomataluo, Fanayama, Nias Selatan",
+      "distance": "88",
+      "maps": "https://www.google.com/maps/place/Bawomataluo,+Teluk+Dalam,+South+Nias+Regency,+North+Sumatra/@0.6185415,97.7702089,14z/data=!3m1!4b1!4m5!3m4!1s0x30288020d8d08c0b:0x8954966da06e7a63!8m2!3d0.6193844!4d97.7905758",
+      "facility": [
+        "traditional dress",
+        "Toilet",
+        "traditional event" 
+      ],
       "description": "Desa Bawomataluo adalah  destinasi wisata terbaik di Kepulauan Nias yang wajib dikunjungi. Desa ini berdiri di atas bukit, tepatnya sekitar 15 km dari daerah tujuan wisata populer para peselancar dunia, Teluk Dalam.  Desa Bawomataluo terdiri dari kumpulan rumah adat milik para penduduk yang posisinya saling berhadapan dengan jarak 4 meter. Di bagian tengah kompleks rumah adat tersebut, terdapat susunan batu yang sangat penting. Susunan batu yang berada di area terbuka itu merupakan pusat upacara-upacara adat dan kegiatan ritual seperti upacara Lompat Batu.Mengingat tingginya nilai adat dan kentalnya budaya masyarakat di Desa Bawomataluo, objek wisata di Kepulauan Nias ini telah dimasukan ke dalam nominasi Situs Warisan Dunia UNESCO. Untuk mencapai Desa Bawomataluo, kamu harus melewati 7 tingkat di bagian pertama dan 70 tingkat di bagian kedua dengan jumlah anak tangga sebangak 88 buah.",
       "picture": "https://i.ibb.co/vm9fyV4/bawomataluo.jpg",
-      "facility": ["Mosque", "Restaurant", "Toilet"],
-      "pictures_url": ["https://i.ibb.co/W3SKJbS/tanjung-kelayang-cheppy-ceper.jpg", "https://i.ibb.co/rfbgWHG/tanjung-kelayang-2.jpg", "https://i.ibb.co/Cw4w5wS/tanjungkelayang-3.jpg", "https://i.ibb.co/K54X6Xm/tanjungkelayang-4.jpg"]
+      "pictures_url": [
+        "https://i.ibb.co/fvRPRNd/desa-bawamataluo-1.jpg",
+        "https://i.ibb.co/dDwtsy0/desa-bawamataluo-2.jpg",
+        "https://i.ibb.co/DCdTSt8/desa-bawamataluo-3.jpg",
+        "https://i.ibb.co/qj4qF69/desa-bawamataluo-4.jpg"
+      ]
     },
     {
       "id": "nias-wisata-2",
       "name": "Pantai Tureloto",
       "location": " Desa Balefadorotuho, Kecamatan Lahewa, Kabupaten Nias Utara",
+      "distance":"102.9",
+      "maps": "https://www.google.com/maps/place/Tureloto+Beach+Lahewa/@1.4296774,97.1339654,15z/data=!3m1!4b1!4m5!3m4!1s0x3025cdd5b366659b:0x5633ab195309e997!8m2!3d1.4296774!4d97.1427202",
+      "facility": [
+        "boat",
+        "Toilet",
+        "cottage",
+        "canteen"
+      ],
       "description": "Keunikan Pantai Tureloto ini, selain air lautnya yang tenang, ternyata juga mengandung kadar garam sangat tinggi, selain berfungsi untuk terapi, saat berenang pun bisa mengapung dengan mudahnya. Pantai ini terbentuk dari tragedi gempa dan tsunami yang melanda pesisir Sumatera tahun 2005, mengakibatkan munculnya hamparan karang ke permukaan sehingga membentuk benteng beberapa ratus meter dari bibir pantai. Dasar permukaan yang naik membentuk pantai dengan perairan dengan laguna yang luas dan dibatasi benteng karang. Pantai ini dikenal dengan keindahan terumbu karangnya.",
-      "facility": ["Mosque", "Restaurant", "Toilet"],
-      "pictures_url": ["https://i.ibb.co/W3SKJbS/tanjung-kelayang-cheppy-ceper.jpg", "https://i.ibb.co/rfbgWHG/tanjung-kelayang-2.jpg", "https://i.ibb.co/Cw4w5wS/tanjungkelayang-3.jpg", "https://i.ibb.co/K54X6Xm/tanjungkelayang-4.jpg"],
-      "picture": "https://i.ibb.co/3dwYZ3r/pantai-tureloto.jpg"
+      "picture": "https://i.ibb.co/3dwYZ3r/pantai-tureloto.jpg",
+      "pictures_url": [
+        "https://i.ibb.co/1mT92g5/pantai-tureloto-1.jpg",
+        "https://i.ibb.co/fYxW5qz/pantai-tureloto-2.jpg",
+        "https://i.ibb.co/cLLbFhB/pantai-tureloto-3.jpg",
+        "https://i.ibb.co/6w5L1Nc/pantai-tureloto-4.jpg"
+      ]
     },
     {
       "id": "nias-wisata-3",
-      "name": "Pulau Hinako",
-      "location": "Kepulauan Hinako, Nias Barat",
-      "description": "Sebagai pulau terbesar yang berada di gugusan Kepulauan Hinako di Nias Barat, Pulau Hinako menawarkan keindahan yang tak kalah jika dibandingkan objek wisata Kepulauan Nias lainnya. Keindahan biota laut Pulau Hinako sangat terkenal hingga mancanegara. Maka tak heran pulau ini kerap dikunjungi wisatawan dari mancanegara. Karena berbatasan langsung dengan Samudera Hindia, pantai di Pulau Hinako memiliki ombak yang relatif besar sehingga cocok untuk berselancar. Tak hanya berselancar, kamu yang berkunjung ke destinasi wisata di Kepulauan Nias ini bisa melakukan beragam aktifitas seperti memancing, menyelam, dan snorkeling.",
-      "facility": ["Mosque", "Restaurant", "Toilet"],
-      "pictures_url": ["https://i.ibb.co/vQgxy0S/pulau-hinako.jpg", "https://i.ibb.co/rfbgWHG/tanjung-kelayang-2.jpg", "https://i.ibb.co/Cw4w5wS/tanjungkelayang-3.jpg", "https://i.ibb.co/K54X6Xm/tanjungkelayang-4.jpg"],
-      "picture": "https://i.ibb.co/5RRXV33/pulau-hinako.jpg"
+      "name": "Pantai Sorake",
+      "location": "Nias Selatan",
+      "distance" :"91.7",
+      "maps":"https://www.google.com/maps/place/Sorake/@0.5787968,97.7119058,13.7z/data=!4m5!3m4!1s0x3027d4e6729a706d:0xfe7c0a1ce7df9709!8m2!3d0.5731015!4d97.7322786",
+      "facility": [
+        "Restaurants",
+        "Hotel",
+        "Surfing",
+        "canteen"
+      ],
+      "description": "Pantai sorake merupakan surganya bagi pecinta surfing (bermain selancar)Pantai Sorake ini terletak di Nias. Pantai ini juga masuk dalam 10 besar tempat surfing terbaik di dunia bahkan disebut-sebut nomor 2 di dunia setelah Hawai. Di bulan juni-juli pantai sorake sangat ramai dikunjungi turis asing untuk berselancar karena ketinggina ombaknya bisa mencapai 10 m – 12 m.",
+      "picture": "https://i.ibb.co/bBKCqxK/pantai-sorake.jpg",
+      "pictures_url": [
+        "https://i.ibb.co/xS1ZjMg/pantai-sorake-1.jpg",
+        "https://i.ibb.co/6NRdjXP/pantai-sorake-2.jpg",
+        "https://i.ibb.co/LrXL1Sc/pantai-sorake-3.jpg",
+        "https://i.ibb.co/BTYq4YZ/pantai-sorake-4.jpg"
+      ]
     }
   ],
   "Banten": [
