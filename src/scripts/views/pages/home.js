@@ -30,7 +30,6 @@ const Home = {
   },
 
   async afterRender() {
-    // console.log(data);
     const randomly = () => Math.random() - 0.4;
     const arrBudaya = [];
     const arrUMKM = [];
@@ -39,7 +38,6 @@ const Home = {
     const keys = Object.keys(dataBudaya);
     const keys2 = Object.keys(dataUMKM);
     const keys3 = Object.keys(dataWisata);
-    console.log(keys);
     const scrollerContainer = document.getElementById('scroller-budaya');
     scrollerContainer.innerHTML += createHomeScrollerTemplate();
 
