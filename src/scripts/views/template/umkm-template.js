@@ -13,14 +13,5 @@ const createUmkmItemTemplate = (conten) => `
       </a>
     </div>
   `;
-const createBantenItemTemplate = (conten) => `
-<div class="umkm-banten" tabindex="0">
-<img tabindex="0" src="${conten.picture}" class="umkm_image" alt="${conten.name}"/>
-<div class="umkm-desc" tabindex="0" >
-  <h1 class="card-content-title">${conten.name}</h1>
-  <a href="#/detail-umkm/${conten.id}" class="umkm-link">
-</div>
-</div>
-  `;
 
-export { createBantenItemTemplate, createUmkmItemTemplate };
+export { createUmkmItemTemplate };
