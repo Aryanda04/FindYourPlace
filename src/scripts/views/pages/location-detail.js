@@ -30,7 +30,6 @@ const DetailLocation = {
   },
   async afterRender() {
     const url = urlParser.parseActiveUrlWithoutCombiner();
-    // console.log(url.id);
     const headerContainer = document.querySelector('#header-section');
     headerContainer.innerHTML += createHeaderLocation(url);
 
