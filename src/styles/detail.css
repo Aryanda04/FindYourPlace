@@ -1,4 +1,8 @@
 /* css for detail pages  */
+#maps-detail {
+    z-index: 100;
+    display: block;
+}
 
 .detail-container {
     width: 80%;

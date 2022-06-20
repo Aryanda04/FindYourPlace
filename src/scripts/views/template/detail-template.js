@@ -3,7 +3,10 @@
 const createVideoTemplate = (data) => `
 <iframe width="560" height="315" src="${data.embed}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 `;
+const createMapsTemplate = (data) => `
+<iframe src="${data.embed_maps}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+`;
 const createWisataDetailTemplate = (data) => `
 <div class="detail-container">
     <div class="detail-container-left">
@@ -18,6 +21,7 @@ const createWisataDetailTemplate = (data) => `
         <br>
         <p>${data.description}</p>
         <h4> Distance : ${data.distance} km</h4>
+
         <a href="${data.maps}" target="_blank">see on maps</a>
 
         <h4> Facility : </h4>
@@ -142,6 +146,6 @@ const createTravelCardTemplate = (data) => `
 `;
 
 export {
-  createWisataDetailTemplate, createOtherWisataPicturesTemplate, createUMKMDetailTemplate, createBudayaDetailTemplate, createWisataDetailCardTemplate, createHeaderLocation, createUMKMDetailCardTemplate, createBudayaDetailCardTemplate, createTravelCardTemplate, createVideoTemplate,
+  createWisataDetailTemplate, createOtherWisataPicturesTemplate, createUMKMDetailTemplate, createBudayaDetailTemplate, createWisataDetailCardTemplate, createHeaderLocation, createUMKMDetailCardTemplate, createBudayaDetailCardTemplate, createTravelCardTemplate, createVideoTemplate, createMapsTemplate,
 
 };

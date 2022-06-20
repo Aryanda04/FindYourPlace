@@ -3,13 +3,15 @@ import urlParser from '../../routes/url-parser';
 import dataWisata from '../../data/Wisata.json';
 import dataBudaya from '../../data/Budaya.json';
 import dataUMKM from '../../data/UMKM.json';
-import { createWisataDetailTemplate, createOtherWisataPicturesTemplate } from '../template/detail-template';
+import { createWisataDetailTemplate, createOtherWisataPicturesTemplate, createMapsTemplate } from '../template/detail-template';
 
 const DetailWisata = {
   async render() {
     return `
           <section id="detail"></section>
+          <section id="maps-detail"></section>
           <section id="picture-detail"></section>
+
         `;
   },
   async afterRender() {
@@ -24,6 +26,7 @@ const DetailWisata = {
 
     const detailContainer = document.querySelector('#detail');
     const pictureContainer = document.querySelector('#picture-detail');
+    const mapsContainer = document.querySelector('#maps-detail');
 
     for (let index = 0; index < arrItem.length; index++) {
       if (arrItem[index].id === url.id) {
@@ -33,8 +36,14 @@ const DetailWisata = {
         // console.log(index.id);
       }
     }
-  },
+    for (let index = 0; index < arrItem.length; index++) {
+      if (arrItem[index].id === url.id) {
+        mapsContainer.innerHTML += createMapsTemplate(arrItem[index]);
 
+      // console.log(index.id);
+      }
+    }
+  },
 };
 
 export default DetailWisata;
