@@ -35,7 +35,8 @@
             "location": "Nias Selatan",
             "description": "Tari Baluse atau Tari Perang yaitu para penari akan memeragakan tari perang Fataele Nias dengan nuansa mistis yang unik. Tari asal daerah Desa Bowanatallio ini meneritakan perihal kehidupan orang-orang Nias zaman dahulu yang sering berperang merebutkan wilayah. Para penari akan menggunakan pakaian tradisi berwarna hitam dan kuning, aksesori berbentuk penutup kepala, serta tanduk kerbau yang ditancapkan di hidung. Tiap penari dilengkapi tombak, tameng, dan pedang bernama Tologu.",
             "picture": "https://i.ibb.co/fksF1K5/tari-perang-3.jpg",
-            "video": "https://www.youtube.com/watch?v=hIO7o0qmGgI"
+            "video": "https://www.youtube.com/watch?v=hIO7o0qmGgI",
+            "embed":"https://www.youtube.com/embed/hIO7o0qmGgI"
         },
         {
             "id": "nias-budaya-2",
@@ -43,7 +44,8 @@
             "location": "Nias Selatan",
             "description": "Lompat Batu merupakan tradisi oleh masyarakat setempat dikenal dengan istilah hombo batu atau fahombo. Batu yang sudah disusun setinggi 2 meter dengan ketebalan 40 sentimeter harus dilompati oleh semua pemuda Nias yang sudah dianggap dewasa.",
             "picture": "https://i.ibb.co/BGmT3LL/lompat-batu.png",
-            "video": "https://www.youtube.com/watch?v=oIU2gm9h7aw"
+            "video": "https://www.youtube.com/watch?v=oIU2gm9h7aw",
+            "embed":"https://www.youtube.com/embed/oIU2gm9h7aw"
         },
         {
             "id": "nias-budaya-3",
@@ -51,7 +53,8 @@
             "location": "Pulau Nias",
             "description": "Tari Maena adalah tari tradisional yang berasal dari kepulauan Nias yang diturunkan turun-temurun oleh leluhur suku Nias. Tari Maena ditampilkan pada kegiatan-kegiatan adat terutama pernikahan untuk menyambut tamu. Tari Maena termasuk jenis tarian rakyat yang dapat dilakukan secara bersama-sama atau massal.",
             "picture": "https://i.ibb.co/tqVW09y/tari-maena.jpg",
-            "video": "https://www.youtube.com/watch?v=4GYpxrqPbHs"
+            "video": "https://www.youtube.com/watch?v=4GYpxrqPbHs",
+            "embed":"https://www.youtube.com/embed/=4GYpxrqPbHs"
         }
     ],
     "Banten": [
