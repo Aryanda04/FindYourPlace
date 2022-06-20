@@ -1,5 +1,8 @@
 /* eslint-disable max-len */
 /* eslint-disable import/prefer-default-export */
+const createVideoTemplate = (data) => `
+<iframe width="560" height="315" src="${data.embed}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+`;
 
 const createWisataDetailTemplate = (data) => `
 <div class="detail-container">
@@ -85,8 +88,7 @@ const createBudayaDetailTemplate = (data) => `
     <p>${data.description}</p>
     <br>
     <span>
-    <a href="${data.video}" target="_blank">see video</a>
-
+    <section id="budaya-video"></section>
     </span>
 
 </div>
@@ -140,6 +142,6 @@ const createTravelCardTemplate = (data) => `
 `;
 
 export {
-  createWisataDetailTemplate, createOtherWisataPicturesTemplate, createUMKMDetailTemplate, createBudayaDetailTemplate, createWisataDetailCardTemplate, createHeaderLocation, createUMKMDetailCardTemplate, createBudayaDetailCardTemplate, createTravelCardTemplate,
+  createWisataDetailTemplate, createOtherWisataPicturesTemplate, createUMKMDetailTemplate, createBudayaDetailTemplate, createWisataDetailCardTemplate, createHeaderLocation, createUMKMDetailCardTemplate, createBudayaDetailCardTemplate, createTravelCardTemplate, createVideoTemplate,
 
 };

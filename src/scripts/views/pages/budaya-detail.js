@@ -4,12 +4,13 @@ import urlParser from '../../routes/url-parser';
 import dataWisata from '../../data/Wisata.json';
 import dataBudaya from '../../data/Budaya.json';
 import dataUMKM from '../../data/UMKM.json';
-import { createBudayaDetailTemplate } from '../template/detail-template';
+import { createBudayaDetailTemplate, createVideoTemplate } from '../template/detail-template';
 
 const DetailBudaya = {
   async render() {
     return `
     <section id="detail"></section>
+
     `;
   },
   async afterRender() {
@@ -27,6 +28,13 @@ const DetailBudaya = {
     for (let index = 0; index < arrItem.length; index++) {
       if (arrItem[index].id === url.id) {
         detailContainer.innerHTML += createBudayaDetailTemplate(arrItem[index]);
+      }
+    }
+
+    const videoContainer = document.querySelector('#budaya-video');
+    for (let index = 0; index < arrItem.length; index++) {
+      if (arrItem[index].id === url.id) {
+        videoContainer.innerHTML += createVideoTemplate(arrItem[index]);
       }
     }
   },

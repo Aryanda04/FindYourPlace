@@ -22,4 +22,4 @@ const createBantenItemTemplate = (content) => `
 </div>
 </div>
   `;
-export { createBudayaItemTemplate, createBantenItemTemplate};
+export { createBudayaItemTemplate, createBantenItemTemplate };
