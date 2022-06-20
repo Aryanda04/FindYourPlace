@@ -91,7 +91,9 @@
         "https://i.ibb.co/dDwtsy0/desa-bawamataluo-2.jpg",
         "https://i.ibb.co/DCdTSt8/desa-bawamataluo-3.jpg",
         "https://i.ibb.co/qj4qF69/desa-bawamataluo-4.jpg"
-      ]
+      ],
+      "picture_source" :[""],
+      "embed_maps":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31916.686612549413!2d97.78771855!3d0.6185415000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30288020d8d08c0b%3A0x8954966da06e7a63!2sBawomataluo%2C%20Teluk%20Dalam%2C%20South%20Nias%20Regency%2C%20North%20Sumatra!5e0!3m2!1sen!2sid!4v1655736981549!5m2!1sen!2sid"
     },
     {
       "id": "nias-wisata-2",
@@ -112,7 +114,9 @@
         "https://i.ibb.co/fYxW5qz/pantai-tureloto-2.jpg",
         "https://i.ibb.co/cLLbFhB/pantai-tureloto-3.jpg",
         "https://i.ibb.co/6w5L1Nc/pantai-tureloto-4.jpg"
-      ]
+      ],
+      "picture_source":[],
+      "embed_maps": ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15954.305168878018!2d97.1427202!3d1.4296773999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3025cdd5b366659b%3A0x5633ab195309e997!2sTureloto%20Beach%20Lahewa!5e0!3m2!1sen!2sid!4v1655737050599!5m2!1sen!2sid"]
     },
     {
       "id": "nias-wisata-3",
@@ -133,7 +137,9 @@
         "https://i.ibb.co/6NRdjXP/pantai-sorake-2.jpg",
         "https://i.ibb.co/LrXL1Sc/pantai-sorake-3.jpg",
         "https://i.ibb.co/BTYq4YZ/pantai-sorake-4.jpg"
-      ]
+      ],
+      "picture_source":[],
+      "embed_maps":["https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63833.83591074764!2d97.7119058!3d0.5787968!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3027d4e6729a706d%3A0xfe7c0a1ce7df9709!2sSorake!5e0!3m2!1sen!2sid!4v1655737179392!5m2!1sen!2sid"]
     }
   ],
   "Banten": [
@@ -157,7 +163,8 @@
         "https://i.ibb.co/84YHGMt/pulau-umang-2.jpg",
         "https://i.ibb.co/fM8BvzY/umang-3.jpg"
       ],
-      "pictures_source": []
+      "pictures_source": [],
+      "embed_maps" : ["https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1981.5157624992787!2d105.5805622!3d-6.6430073!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e43ba90b32dbfb5%3A0xc35513916c5ad26f!2sUmang%20Island!5e0!3m2!1sen!2sid!4v1655737218161!5m2!1sen!2sid"]
     },
     {
       "id": "banten-wisata-2",
@@ -179,7 +186,8 @@
         "https://i.ibb.co/888rX9G/images-1.jpg",
         "https://i.ibb.co/Cz95ybM/images-2.jpg"
       ],
-      "pictures_source": []
+      "pictures_source": [],
+      "embed_maps":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.8780307956804!2d105.3751088!3d-6.7846944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e42233395979ea1%3A0x8df3a34e43b4c872!2sUjung%20Kulon%20National%20Park!5e0!3m2!1sen!2sid!4v1655737266056!5m2!1sen!2sid"]
     },
     {
       "id": "banten-wisata-3",
@@ -199,7 +207,8 @@
         "https://i.ibb.co/2yPbNY7/warga-baduy-luar-169.jpg",
         "https://i.ibb.co/LzJBLby/15664432429788.png"
       ],
-      "pictures_source": []
+      "pictures_source": [],
+      "embed_maps": ["https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63413.01979586433!2d106.1565314!3d-6.6078819!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e42691f0ca8c471%3A0xc7dce717ca9ffcd1!2sWisata%20Kampung%20Marengo%20Baduy%20Luar!5e0!3m2!1sen!2sid!4v1655737322185!5m2!1sen!2sid"]
     }
   ]
 }
