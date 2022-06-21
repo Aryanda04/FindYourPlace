@@ -16,7 +16,8 @@
             "description": "Produk UMKM berupa gula yang memiliki bahan dasar jahe merah yang di produksi sendiri tanpa campuran apapun. Produk UMKM berasal dari Banten diolah dengan proses dari nira aren murni langsung menjadi gula, pengeringan melalui oven mesin kadar air 1%, pengayakan melalui oven mesin kadar air 1%, pengayakan melalui mesin mesin ayak mesh 16-18, serta kemasan food frade st puch+zipper lock.",
             "picture": "https://i.ibb.co/DrJmncX/gula-aren.jpg",
             "link": "https://instagram.com/gulaarenpondokaren?igshid=YmMyMTA2M2Y=",
-            "maps": "https://maps.app.goo.gl/pcq12krrmtvkFpWRA"
+            "maps": "https://maps.app.goo.gl/pcq12krrmtvkFpWRA",
+            "embed_maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0036521629536!2d106.72632379999999!3d-6.2632477999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f07fb2a43261%3A0x44e2afa5b0afd7c4!2sRuko%20GRAHA%20ARS!5e0!3m2!1sen!2sid!4v1655737981649!5m2!1sen!2sid"
         },
         {
             "id": "banten-umkm-3",
@@ -54,7 +55,8 @@
             "description": "Durian Nias adalah sebuah kekhasan jenis buah-buahan yang dianugerahkan oleh Tuhan di Pulau ini. Durian Nias bukanlah durian yang sengaja dibudidayakan melainkan memang telah tumbuh dengan sendirinya, menyebar di tanah-tanah hutan Nias, dari utara ke selatan, dari barat hingga ke timur. Untuk rasanya jangan diragukan. Bila anda memang penggemar buah durian, maka durian Nias dapat dikatakan akan berada pada urutan teratas durian yang akan anda cicipi sekali dalam hidup anda.",
             "picture": "https://i.ibb.co/Ny026J6/Tugu-Durian.jpg",
             "link": "https://www.tokopedia.com/find/durian/c/gunungsitoli",
-            "maps": "https://www.google.com/maps/place/Tugu+Durian/@1.2899631,97.6197233,17z/data=!3m1!4b1!4m5!3m4!1s0x3025fbda9b4857a5:0x908dd43e486b2915!8m2!3d1.2899631!4d97.6197233"
+            "maps": "https://www.google.com/maps/place/Tugu+Durian/@1.2899631,97.6197233,17z/data=!3m1!4b1!4m5!3m4!1s0x3025fbda9b4857a5:0x908dd43e486b2915!8m2!3d1.2899631!4d97.6197233",
+            "embed_maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8071738280555!2d97.61972329999999!3d1.2899630999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3025fbda9b4857a5%3A0x908dd43e486b2915!2sTugu%20Durian!5e0!3m2!1sen!2sid!4v1655739507317!5m2!1sen!2sid"
         }
     ],
     "Belitung": [
@@ -65,7 +67,8 @@
             "description": "Purun eco straw adalah sedotan alami yang terbuat dari rumput yang dikeringkan tanpa menggunakan bahan kimia sama sekali hanya mengandalkan panas dari sinar matahari",
             "picture": "https://i.ibb.co/Fw7ngky/purun.jpg",
             "link": "https://www.instagram.com/purun.ecostraw/",
-            "maps": "https://www.google.com/maps/place/Purun+eco+straw/@-2.7758846,107.6475189,17z/data=!3m1!4b1!4m5!3m4!1s0x2e171728da829f47:0x6ef0805691bcf38e!8m2!3d-2.7758887!4d107.6497048"
+            "maps": "https://www.google.com/maps/place/Purun+eco+straw/@-2.7758846,107.6475189,17z/data=!3m1!4b1!4m5!3m4!1s0x2e171728da829f47:0x6ef0805691bcf38e!8m2!3d-2.7758887!4d107.6497048",
+            "embed_maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.136705044682!2d107.6497076!3d-2.7758845999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e171728da829f47%3A0x6ef0805691bcf38e!2sPurun%20eco%20straw!5e0!3m2!1sen!2sid!4v1655739577710!5m2!1sen!2sid"
         },
         {
             "id": "blt-umkm-2",
@@ -78,12 +81,13 @@
         },
         {
             "id": "blt-umkm-3",
-            "name": "Ketam Isi",
+            "name": "Ketan Isi",
             "location": "Tanjungpandan, Belitung",
             "description": "Ketam atau yang biasa disebut kepiting dalam bahasa Indonesia, merupakan salah satu makanan yang enak dan gurih terutama bagi anda yang mencintai makanan laut. Kelemahan dari kepiting adalah kita dibuat repot untuk mengupasnya saat memakannya. Ketam Isi ini merupakan olahan dari daging kepiting sehingga anda dapat menikmati kepiting tanpa perlu repot mengupas. Sekali anda mencoba, tentunya akan meninggalkan kesan bagi anda dan tentunya akan membuat anda ingin mencobanya lagi.",
             "picture": "https://i.ibb.co/N1sgvgb/ketam.jpg",
             "link": "https://www.adena.co.id/",
-            "maps": "https://www.google.com/maps/place/Dapur+Adena/@-2.7323709,107.6539283,18.04z/data=!4m5!3m4!1s0x0:0xde58b3d699be2ed4!8m2!3d-2.731921!4d107.6555051?shorturl=1"
+            "maps": "https://www.google.com/maps/place/Dapur+Adena/@-2.7323709,107.6539283,18.04z/data=!4m5!3m4!1s0x0:0xde58b3d699be2ed4!8m2!3d-2.731921!4d107.6555051?shorturl=1",
+            "embed_maps": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1992.641150729631!2d107.6539283!3d-2.7323709!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xde58b3d699be2ed4!2sDapur%20Adena!5e0!3m2!1sen!2sid!4v1655739655137!5m2!1sen!2sid"
         }
     ]
 }
