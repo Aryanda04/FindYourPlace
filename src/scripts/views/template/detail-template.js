@@ -4,7 +4,7 @@ const createVideoTemplate = (data) => `
 <iframe width="560" height="315" src="${data.embed}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 `;
 const createMapsTemplate = (data) => `
-<iframe src="${data.embed_maps}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="${data.embed_maps}" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 `;
 const createWisataDetailTemplate = (data) => `
@@ -75,7 +75,6 @@ const createUMKMDetailTemplate = (data) => `
 
 </div>
 </div>
-<div class="filler"></div>
 `;
 const createBudayaDetailTemplate = (data) => `
 <div class="detail-container">

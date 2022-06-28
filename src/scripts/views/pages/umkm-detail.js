@@ -32,10 +32,9 @@ const DetailUMKM = {
       }
     }
 
-    for(let index= 0; index < arrItem.length; index++){
-      if(arrItem[index].id === url.id){
+    for (let index = 0; index < arrItem.length; index++) {
+      if (arrItem[index].id === url.id) {
         mapsContainer.innerHTML += createMapsTemplate(arrItem[index]);
-
       }
     }
   },
