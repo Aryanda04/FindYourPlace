@@ -13,7 +13,7 @@ class CustomFooter extends HTMLElement {
       </div>
       <div class="footer-middle">
         <h3> About Us </h3>
-        <P class="footer-middle-text"> Fond Your Place ialah website dimana anda dapat menemukan destinasi wisata, budaya, dan produk UMKM yang tersedia di wilayah tersebut
+        <P class="footer-middle-text"> Find Your Place ialah website dimana anda dapat menemukan destinasi wisata, budaya, dan produk UMKM yang tersedia di wilayah tersebut
         </p>
         <a href="#/about"> meet our team </a>
       </div>
