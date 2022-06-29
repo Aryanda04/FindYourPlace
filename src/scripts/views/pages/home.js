@@ -56,6 +56,8 @@ const Home = {
       arrBudaya.push(...dataBudaya[key]);
       arrItem.push(...dataBudaya[key]);
     });
+    const dynamicarrBudaya = [].concat(arrBudaya).sort(randomly);
+
     keys2.forEach((key) => {
       arrUMKM.push(...dataUMKM[key]);
       arrItem.push(...dataUMKM[key]);
@@ -74,24 +76,24 @@ const Home = {
     const iconleft = document.querySelector('#btnl');
     iconleft.addEventListener('click', async () => {
       const left = document.querySelector('.scroll-images');
-      left.scrollBy(350, 0);
+      left.scrollBy(150, 0);
     });
     const iconright1 = document.querySelector('#btnr');
     iconright1.addEventListener('click', async () => {
       const right = document.querySelector('.scroll-images');
-      right.scrollBy(-350, 0);
+      right.scrollBy(-150, 0);
     });
     const iconright2 = document.querySelector('#btnr2');
     iconright2.addEventListener('click', async () => {
       const right = document.querySelector('.scroll-images');
-      right.scrollBy(-350, 0);
+      right.scrollBy(-150, 0);
     });
 
     dynamicarrUMKM.slice(0, 4).forEach((i) => {
       umkmContainer.innerHTML += createUMKMHomeCardTemplate(i);
     });
 
-    arrBudaya.forEach((i) => {
+    dynamicarrBudaya.forEach((i) => {
       budayaContainer.innerHTML += createBudayaHomeCardTemplate(i);
     });
     dynamicarrWisata.slice(0, 4).forEach((i) => {

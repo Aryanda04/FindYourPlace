@@ -69,6 +69,12 @@
     /* border: 2px solid red; */
 }
 
+.main-scroll-div button {
+    margin: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
 .cover {
     position: relative;
     width: 80%;
@@ -413,6 +419,7 @@
 }
 
 @media screen and (max-width:700px) {
+
     #selectLocation {
         width: 50%;
     }
