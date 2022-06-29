@@ -24,17 +24,6 @@ body {
 }
 
 
-/* TO CONTENT */
-.skip-link {
-    position: absolute;
-    top: -40px;
-    left: 0;
-    background-color: #bf1722;
-    color: white;
-    padding: 8px;
-    z-index: 100;
-}
-
 .container {
     width: 90%;
     margin: 0 auto;

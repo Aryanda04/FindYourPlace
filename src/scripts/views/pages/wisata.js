@@ -18,7 +18,7 @@ const Wisata = {
 
     keys.forEach((key) => {
       contentWisata.push(...data[key]);
-      console.log(data[key]);
+      // console.log(data[key]);
     });
     // console.log(contentWisata);
 
