@@ -44,11 +44,20 @@ a {
 .desc {
     text-align: justify;
     padding: 30px;
+    max-height: 45px;
 }
 
 @media screen and (min-width: 650px) {
     #explore-umkm {
         grid-template-columns: repeat(2, 1fr)
+    }
+
+    .desc {
+        overflow: hidden;
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
     }
 }
 
@@ -61,6 +70,15 @@ a {
 @media screen and (min-width: 1600px) {
     #explore-umkm {
         grid-template-columns: repeat(4, 1fr);
+    }
+
+    .desc {
+        overflow: hidden;
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+
     }
 
 }
