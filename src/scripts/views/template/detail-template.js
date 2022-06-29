@@ -75,6 +75,8 @@ const createUMKMDetailTemplate = (data) => `
 
 </div>
 </div>
+<div class="filler"></div>
+
 `;
 const createBudayaDetailTemplate = (data) => `
 <div class="detail-container">

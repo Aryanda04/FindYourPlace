@@ -15,7 +15,11 @@ import {
 const Home = {
   async render() {
     return `
+
+<script async src="//www.instagram.com/embed.js"></script>
     <custom-jumbotron></custom-jumbotron>
+
+<script async src="//www.instagram.com/embed.js"></script>
         <section id="select-container"></section>
         
         <h2 class="tagline-home">Recomendation Place</h2>
