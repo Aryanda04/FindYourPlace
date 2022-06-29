@@ -74,17 +74,17 @@ const Home = {
     const iconleft = document.querySelector('#btnl');
     iconleft.addEventListener('click', async () => {
       const left = document.querySelector('.scroll-images');
-      left.scrollBy(350, 0);
+      left.scrollBy(150, 0);
     });
     const iconright1 = document.querySelector('#btnr');
     iconright1.addEventListener('click', async () => {
       const right = document.querySelector('.scroll-images');
-      right.scrollBy(-350, 0);
+      right.scrollBy(-150, 0);
     });
     const iconright2 = document.querySelector('#btnr2');
     iconright2.addEventListener('click', async () => {
       const right = document.querySelector('.scroll-images');
-      right.scrollBy(-350, 0);
+      right.scrollBy(-150, 0);
     });
 
     dynamicarrUMKM.slice(0, 4).forEach((i) => {
