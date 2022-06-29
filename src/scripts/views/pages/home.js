@@ -56,6 +56,8 @@ const Home = {
       arrBudaya.push(...dataBudaya[key]);
       arrItem.push(...dataBudaya[key]);
     });
+    const dynamicarrBudaya = [].concat(arrBudaya).sort(randomly);
+
     keys2.forEach((key) => {
       arrUMKM.push(...dataUMKM[key]);
       arrItem.push(...dataUMKM[key]);
@@ -91,7 +93,7 @@ const Home = {
       umkmContainer.innerHTML += createUMKMHomeCardTemplate(i);
     });
 
-    arrBudaya.forEach((i) => {
+    dynamicarrBudaya.forEach((i) => {
       budayaContainer.innerHTML += createBudayaHomeCardTemplate(i);
     });
     dynamicarrWisata.slice(0, 4).forEach((i) => {
