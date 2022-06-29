@@ -11,7 +11,6 @@ const createWisataItemTemplate = (content) => `
           <p class="description-wisata truncate-wisata">${content.description}</p>
         </div>
       <a>
-    <div>
+    <div> 
     `;
-
 export { createWisataItemTemplate };
