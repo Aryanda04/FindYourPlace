@@ -7,12 +7,12 @@ h2 {
     display: grid;
     grid-template-columns: 1fr;
     margin: 50px;
-    gap: 50px;
+    gap: 30px;
 
 }
 
 .umkm {
-    margin: 16px 0;
+
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 2px;
     text-align: center;
@@ -24,7 +24,7 @@ h2 {
 
 .umkm img {
     width: 100%;
-    height: 350px;
+    height: 250px;
     border-radius: 2px;
 }
 
@@ -43,8 +43,11 @@ a {
 
 .desc {
     text-align: justify;
-    padding: 30px;
-    max-height: 45px;
+    max-height: 55px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 @media screen and (min-width: 650px) {
@@ -65,11 +68,22 @@ a {
     #explore-umkm {
         grid-template-columns: repeat(3, 1fr)
     }
+
+    .desc {
+        overflow: hidden;
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+
+    }
+
 }
 
 @media screen and (min-width: 1600px) {
     #explore-umkm {
         grid-template-columns: repeat(4, 1fr);
+
     }
 
     .desc {
