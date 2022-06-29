@@ -1,5 +1,5 @@
-import data from "../../data/Wisata.json";
-import { createWisataItemTemplate } from "../template/wisata-template";
+import data from '../../data/Wisata.json';
+import { createWisataItemTemplate } from '../template/wisata-template';
 
 const Wisata = {
   async render() {
@@ -12,7 +12,7 @@ const Wisata = {
 
   async afterRender() {
     // Fungsi ini akan dipanggil setelah render()
-    console.log(data);
+    // console.log(data);
     const contentWisata = [];
     const keys = Object.keys(data);
 
@@ -20,9 +20,9 @@ const Wisata = {
       contentWisata.push(...data[key]);
       console.log(data[key]);
     });
-    console.log(contentWisata);
+    // console.log(contentWisata);
 
-    const listContainer = document.querySelector("#explore-wisata");
+    const listContainer = document.querySelector('#explore-wisata');
 
     contentWisata.forEach((wisata) => {
       listContainer.innerHTML += createWisataItemTemplate(wisata);
